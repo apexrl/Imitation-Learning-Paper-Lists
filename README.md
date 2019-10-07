@@ -2,15 +2,15 @@
 Paper Collection for Imitation Learning in RL.
 
 ## Overview
-* [Behavior-Cloning](https://github.com/Ericonaldo/RL-Exploration-Paper-Lists#Behavior-Cloning)
+* [Behavior-Cloning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Behavior-Cloning)
   * [xxx](https://github.com/Ericonaldo/RL-Exploration-Paper-Lists#xxx)
   * [xxx]()
-* [Inverse-RL](https://github.com/Ericonaldo/RL-Exploration-Paper-Lists#Inverse-RL)
-  * [xxx](https://github.com/Ericonaldo/RL-Exploration-Paper-Lists#xxx)
-  * [xxx](https://github.com/Ericonaldo/RL-Exploration-Paper-Lists#xxx)
-* [GAIL](https://github.com/Ericonaldo/RL-Exploration-Paper-Lists#GAIL)
-  * [xxx](https://github.com/Ericonaldo/RL-Exploration-Paper-Lists#xxx)
-  * [xxx](https://github.com/Ericonaldo/RL-Exploration-Paper-Lists#xxx)
+* [Inverse-RL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Inverse-RL)
+  * [xxx](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#xxx)
+  * [xxx](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#xxx)
+* [GAIL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#GAIL)
+  * [xxx](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#xxx)
+  * [xxx](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#xxx)
 
 
 ## Behavior-Cloning
