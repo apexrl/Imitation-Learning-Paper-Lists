@@ -56,6 +56,8 @@ Brenna, D.Argall, SoniaChernova, ManuelaVeloso, BrettBrowning, 2009.
 
 * <[A review of inverse reinforcement learning theory and recent advances](https://ieeexplore.ieee.org/abstract/document/6256507)> by Shao Zhifei, Er Meng Joo, 2012.
 
+* <[From Structured Prediction to Inverse Reinforcement Learning](https://www.aclweb.org/anthology/P10-5005/) by Hal Daumé III, 2010.
+
 ### Papers
 
 * <[Learning to Optimize via Wasserstein Deep Inverse Optimal Control
