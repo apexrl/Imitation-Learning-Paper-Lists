@@ -1,5 +1,5 @@
 # Imitation-Learning-Paper-Lists
-Paper Collection for Imitation Learning in RL with brief introductions. Imitation learning is to learn expert policies from sets of demonstrations. These methods in this collection typically do not assume to ask for an interactive expert for correctness and data aggregation, but when it is allowed, then lead to series of interactive direct policy learning methdos. Since we do not expect for an interactive expert, we only list the original DAgger (Dataset Aggregation) paper in [Behavior-Cloning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Behavior-Cloning), and we will concentrate on those who only learn from pre-collected demonstrations.
+Paper Collection for Imitation Learning in RL with brief introductions. Imitation learning is to learn expert policies from sets of demonstrations. These methods in this collection typically do not assume to ask for an interactive expert for correctness and data aggregation, but when it is allowed, then lead to series of interactive direct policy learning methdos, which is often analyzed via learing reductions. Since we do not expect for an interactive expert, we only list the original DAgger (Dataset Aggregation) paper in [Behavior-Cloning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Behavior-Cloning), and we will concentrate on those who only learn from pre-collected demonstrations.
 
 ## Overview
 * [Single-Agent](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Single-Agent)
@@ -28,7 +28,7 @@ Brenna, D.Argall, SoniaChernova, ManuelaVeloso, BrettBrowning, 2009.
 
 ## Behavior-Cloning
 
-Behavior Cloning directly replicating the expert’s behavior with supervised learning, which can be improved via data aggregation.
+Behavior Cloning (BC) directly replicating the expert’s behavior with supervised learning, which can be improved via data aggregation. One can say that BC is the simplest case of interactive direct policy learning.
 
 * <[Causal Confusion in Imitation Learning](https://arxiv.org/abs/1905.11979)> by Pim de Haan, Dinesh Jayaraman, Sergey Levine, 2019.
 
@@ -46,7 +46,7 @@ Behavior Cloning directly replicating the expert’s behavior with supervised le
 
 ## Inverse-RL
 
-Inverse RL learns hidden objectives of the expert’s behavior.
+Inverse Rinforcement Learning (IRL) learns hidden objectives of the expert’s behavior.
 
 ### Reveiws&Tutorials
 
@@ -93,7 +93,7 @@ Brian D. Ziebart, Andrew Maas, J.Andrew Bagnell, and Anind K. Dey, 2008.
 
 ## GAIL
 
-GAIL apply generative adversarial training manner into learning expert policies, which is derived from inverse RL.
+Generative Adversarial Imitation Learning (GAIL) apply generative adversarial training manner into learning expert policies, which is derived from inverse RL.
 
 * [Model based] <[Model Imitation for Model-Based Reinforcement Learning](https://arxiv.org/pdf/1909.11821.pdf)> by Yueh-Hua Wu, Ting-Han Fan, Peter J. Ramadge, Hao Su, 2019.
 
