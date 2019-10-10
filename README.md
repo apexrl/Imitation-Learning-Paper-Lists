@@ -83,6 +83,9 @@ Brian D. Ziebart, Andrew Maas, J.Andrew Bagnell, and Anind K. Dey, 2008.
 
 ## GAIL
 
+* [Model based] <[Model Imitation for Model-Based Reinforcement Learning](https://arxiv.org/pdf/1909.11821.pdf)> by Yueh-Hua Wu, Ting-Han Fan, Peter J. Ramadge, Hao Su, 2019.
+
+
 * <[Cross Domain Imitation Learning](https://arxiv.org/abs/1910.00105)> by Kun Ho Kim, Yihong Gu, Jiaming Song, Shengjia Zhao, Stefano Ermon, 2019.
 
 * [POMDP] <[Learning Belief Representations for Imitation Learning in POMDPs](https://arxiv.org/abs/1906.09510)> by Tanmay Gangwani, Joel Lehman, Qiang Liu, Jian Peng, 2019.
