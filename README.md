@@ -2,23 +2,28 @@
 Paper Collection for Imitation Learning in RL with brief introductions.
 
 ## Overview
-* [Reveiws&Tutorials](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Reveiws&Tutorials)
-* [Behavior-Cloning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Behavior-Cloning)
-* [Apprenticeship Learning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Apprenticeship-Learning)
-* [Inverse-RL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Inverse-RL)
-* [GAIL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#GAIL)
+* [Sigle-Agent](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Sigle-Agent)
+  * [Reveiws&Tutorials](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Reveiws&Tutorials)
+  * [Behavior-Cloning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Behavior-Cloning)
+  * [Apprenticeship Learning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Apprenticeship-Learning)
+  * [Inverse-RL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Inverse-RL)
+  * [GAIL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#GAIL)
+* [Multi-Agent](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Multi-Agent)
+  * [Inverse-RL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#MA-Inverse-RL)
+
+## Sigle-Agent
 
 ## Reveiws&Tutorials
-
-* <[Imitation learning: A survey of learning methods](https://dl.acm.org/citation.cfm?id=3071073.3054912)> by	Ahmed Hussein, Mohamed Medhat Gaber, Eyad Elyan,	Chrisina Jayne, 2017.
-
-* <[A survey of robot learning from demonstration](https://www.sciencedirect.com/science/article/pii/S0921889008001772)> by 
-Brenna, D.Argall, SoniaChernova, ManuelaVeloso, BrettBrowning, 2009.
 
 * <[Introduction into Imitation Learning
 h](https://www.cl.uni-heidelberg.de/courses/ws18/iml/L1.pdf)> by Artem Sokolov, 2018. (Slide)
 
 * <[Imitation Learning Tutorial in ICML2018](https://sites.google.com/view/icml2018-imitation-learning/)> by Yisong Yue Hoang M. Le, 2018. (Vedio; Slide)
+
+* <[Imitation learning: A survey of learning methods](https://dl.acm.org/citation.cfm?id=3071073.3054912)> by	Ahmed Hussein, Mohamed Medhat Gaber, Eyad Elyan,	Chrisina Jayne, 2017.
+
+* <[A survey of robot learning from demonstration](https://www.sciencedirect.com/science/article/pii/S0921889008001772)> by 
+Brenna, D.Argall, SoniaChernova, ManuelaVeloso, BrettBrowning, 2009.
 
 ## Behavior-Cloning
 
@@ -30,21 +35,23 @@ h](https://www.cl.uni-heidelberg.de/courses/ws18/iml/L1.pdf)> by Artem Sokolov, 
 
 ## Apprenticeship-Learning
 
+* <[Apprenticeship Learning using Inverse Reinforcement Learning and Gradient Methods](https://arxiv.org/abs/1206.5264) by Gergely Neu, Csaba Szepesvari, 2012.
+
 * <[Apprenticeship Learning Using Linear Programming](http://rob.schapire.net/papers/SyedBowlingSchapireICML2008.pdf)> by Umar Syed, Michael Bowling and Robert E. Schapire, 2008.
 
 ## Inverse-RL
 
 ### Reveiws&Tutorials
 
+* <[Inverse Reinforcement Learning](https://thinkingwires.com/posts/2018-02-13-irl-tutorial-1.html#algorithms) by Johannes Heidecke, 2018. (Blog)
+
+* <[Inverse Reinforcement Learning](https://towardsdatascience.com/inverse-reinforcement-learning-6453b7cdc90d) by Alexandre Gonfalonieri, 2018.（Blog）
+
 * <[A Survey of Inverse Reinforcement Learning: Challenges, Methods and Progress](https://arxiv.org/abs/1806.06877)> by Saurabh Arora, Prashant Doshi, 2012.
 
 * <[A survey of inverse reinforcement learning techniques](https://www.emerald.com/insight/content/doi/10.1108/17563781211255862/full/html)> by Shao Zhifei, Er Meng Joo, 2012.
 
 * <[A review of inverse reinforcement learning theory and recent advances](https://ieeexplore.ieee.org/abstract/document/6256507)> by Shao Zhifei, Er Meng Joo, 2012.
-
-* <[Inverse Reinforcement Learning](https://thinkingwires.com/posts/2018-02-13-irl-tutorial-1.html#algorithms) by Johannes Heidecke, 2018. (Blog)
-
-* <[Inverse Reinforcement Learning](https://towardsdatascience.com/inverse-reinforcement-learning-6453b7cdc90d) by Alexandre Gonfalonieri, 2018.（Blog）
 
 ### Papers
 
@@ -64,8 +71,16 @@ h](https://www.cl.uni-heidelberg.de/courses/ws18/iml/L1.pdf)> by Artem Sokolov, 
 * <[The Principle of Maximum Causal Entropy
 for Estimating Interacting Processes](http://ieeexplore.ieee.org/abstract/document/6479340/)> by Brian D. Ziebart, J. Andrew Bagnell, and Anind K. Dey, 2012.
 
+* <[Nonlinear Inverse Reinforcement Learning with Gaussian Processes](http://papers.nips.cc/paper/4420-nonlinear-inverse-reinforcement-learning-with-gaussian-processes)> by Sergey Levine, Zoran Popovic and Vladlen Koltun, 2011.
+
+* <[Relative Entropy Inverse Reinforcement Learning](http://www.jmlr.org/proceedings/papers/v15/boularias11a/boularias11a.pdf) by Abdeslam Boularias, Jens Kober and Jan Peters, 2011.
+
 * <[Maximum Entropy Inverse Reinforcement Learning](https://www.aaai.org/Papers/AAAI/2008/AAAI08-227.pdf)> by 
 Brian D. Ziebart, Andrew Maas, J.Andrew Bagnell, and Anind K. Dey, 2008.
+
+* <[Bayesian Inverse Reinforcement Learning](https://www.aaai.org/Papers/IJCAI/2007/IJCAI07-416.pdf)> by Deepak Ramachandran and Eyal Amir, 2007.
+
+* <[Algorithms for Inverse Reinforcement Learning](http://ai.stanford.edu/~ang/papers/icml00-irl.pdf)> by AY Ng, SJ Russell, 2000.
 
 ## GAIL
 
@@ -94,3 +109,5 @@ Brian D. Ziebart, Andrew Maas, J.Andrew Bagnell, and Anind K. Dey, 2008.
 
 * <[Generative Adversarial Imitation Learning](http://papers.nips.cc/paper/6391-generative-adversarial-imitation-learning)> by Jonathan Ho and Stefano Ermon, 2016.
 
+## MA-Inverse-RL
+* <[Cooperative Inverse Reinforcement Learning](http://papers.nips.cc/paper/6420-cooperative-inverse-reinforcement-learning) by Dylan Hadfield-Menell, Stuart J. Russell, Pieter Abbeel and Anca Dragan, 2016.
