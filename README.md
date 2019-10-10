@@ -34,7 +34,7 @@ Brenna, D.Argall, SoniaChernova, ManuelaVeloso, BrettBrowning, 2009.
 
 ## Apprenticeship-Learning
 
-* <[Apprenticeship Learning using Inverse Reinforcement Learning and Gradient Methods](https://arxiv.org/abs/1206.5264) by Gergely Neu, Csaba Szepesvari, 2012.
+* <[Apprenticeship Learning using Inverse Reinforcement Learning and Gradient Methods](https://arxiv.org/abs/1206.5264)> by Gergely Neu, Csaba Szepesvari, 2012.
 
 * <[Apprenticeship Learning Using Linear Programming](http://rob.schapire.net/papers/SyedBowlingSchapireICML2008.pdf)> by Umar Syed, Michael Bowling and Robert E. Schapire, 2008.
 
@@ -42,9 +42,9 @@ Brenna, D.Argall, SoniaChernova, ManuelaVeloso, BrettBrowning, 2009.
 
 ### Reveiws&Tutorials
 
-* <[Inverse Reinforcement Learning](https://thinkingwires.com/posts/2018-02-13-irl-tutorial-1.html#algorithms) by Johannes Heidecke, 2018. (Blog)
+* <[Inverse Reinforcement Learning](https://thinkingwires.com/posts/2018-02-13-irl-tutorial-1.html#algorithms)> by Johannes Heidecke, 2018. (Blog)
 
-* <[Inverse Reinforcement Learning](https://towardsdatascience.com/inverse-reinforcement-learning-6453b7cdc90d) by Alexandre Gonfalonieri, 2018.（Blog）
+* <[Inverse Reinforcement Learning](https://towardsdatascience.com/inverse-reinforcement-learning-6453b7cdc90d)> by Alexandre Gonfalonieri, 2018.（Blog）
 
 * <[A Survey of Inverse Reinforcement Learning: Challenges, Methods and Progress](https://arxiv.org/abs/1806.06877)> by Saurabh Arora, Prashant Doshi, 2012.
 
@@ -72,7 +72,7 @@ for Estimating Interacting Processes](http://ieeexplore.ieee.org/abstract/docume
 
 * <[Nonlinear Inverse Reinforcement Learning with Gaussian Processes](http://papers.nips.cc/paper/4420-nonlinear-inverse-reinforcement-learning-with-gaussian-processes)> by Sergey Levine, Zoran Popovic and Vladlen Koltun, 2011.
 
-* <[Relative Entropy Inverse Reinforcement Learning](http://www.jmlr.org/proceedings/papers/v15/boularias11a/boularias11a.pdf) by Abdeslam Boularias, Jens Kober and Jan Peters, 2011.
+* <[Relative Entropy Inverse Reinforcement Learning](http://www.jmlr.org/proceedings/papers/v15/boularias11a/boularias11a.pdf)> by Abdeslam Boularias, Jens Kober and Jan Peters, 2011.
 
 * <[Maximum Entropy Inverse Reinforcement Learning](https://www.aaai.org/Papers/AAAI/2008/AAAI08-227.pdf)> by 
 Brian D. Ziebart, Andrew Maas, J.Andrew Bagnell, and Anind K. Dey, 2008.
@@ -85,9 +85,9 @@ Brian D. Ziebart, Andrew Maas, J.Andrew Bagnell, and Anind K. Dey, 2008.
 
 * <[Cross Domain Imitation Learning](https://arxiv.org/abs/1910.00105)> by Kun Ho Kim, Yihong Gu, Jiaming Song, Shengjia Zhao, Stefano Ermon, 2019.
 
-* [POMDP] <[Learning Belief Representations for Imitation Learning in POMDPs](https://arxiv.org/abs/1906.09510) by Tanmay Gangwani, Joel Lehman, Qiang Liu, Jian Peng, 2019.
+* [POMDP] <[Learning Belief Representations for Imitation Learning in POMDPs](https://arxiv.org/abs/1906.09510)> by Tanmay Gangwani, Joel Lehman, Qiang Liu, Jian Peng, 2019.
 
-* <[Adversarial Imitation Learning from Incomplete Demonstrations](https://arXiv.org/abs/1905.12310) by Mingfei Sun and Xiaojuan Ma, 2019.
+* <[Adversarial Imitation Learning from Incomplete Demonstrations](https://arXiv.org/abs/1905.12310)> by Mingfei Sun and Xiaojuan Ma, 2019.
 
 * <[Self-Improving Generative Adversarial Reinforcement Learning
  ](https://dl.acm.org/citation.cfm?id=3331673)> by	Yang Liu,	Yifeng Zeng, Yingke Chen, Jing Tang, Yinghui Pan, 2019.
