@@ -1,5 +1,5 @@
 # Imitation-Learning-Paper-Lists
-Paper Collection for Imitation Learning in RL with brief introductions.
+Paper Collection for Imitation Learning in RL with brief introductions. Imitation learning is to learn expert policies from sets of demonstrations. These methods in this collection typically do not assume to ask for an interactive expert for correctness and data aggregation, but when it is allowed, then lead to series of DAgger (Dataset Aggregation) methods. Since we do not expect for an interactive expert, we only list the original DAgger paper in [Behavior-Cloning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Behavior-Cloning), and we will concentrate on those who only learn from static demonstration data.
 
 ## Overview
 * [Single-Agent](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Single-Agent)
@@ -38,7 +38,7 @@ Behavior Cloning directly replicating the expert’s behavior with supervised le
 
 * <[Associate Latent Encodings in Learning from Demonstrations](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14509)> by Hang Yin, Francisco S. Melo, Aude Billard, Ana Paiva, 2017.
 
-* <[A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning](https://arxiv.org/abs/1011.0686)> by Stephane Ross, Geoffrey J. Gordon, J. Andrew Bagnell, 2011.
+* [DAgger] <[A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning](https://arxiv.org/abs/1011.0686)> by Stephane Ross, Geoffrey J. Gordon, J. Andrew Bagnell, 2011.
 
 ## Apprenticeship-Learning
 
