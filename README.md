@@ -34,6 +34,8 @@ Behavior Cloning directly replicating the expert’s behavior with supervised le
 
 * <[Causal Confusion in Imitation Learning](https://arxiv.org/abs/1905.11979)> by Pim de Haan, Dinesh Jayaraman, Sergey Levine, 2019.
 
+* <[Hierarchical Imitation and Reinforcement Learning](https://arxiv.org/abs/1803.00590)> by Hoang M. Le, Nan Jiang, Alekh Agarwal, Miroslav Dudík, Yisong Yue, Hal Daumé III, 2018.
+
 * <[Associate Latent Encodings in Learning from Demonstrations](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14509)> by Hang Yin, Francisco S. Melo, Aude Billard, Ana Paiva, 2017.
 
 * <[A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning](https://arxiv.org/abs/1011.0686)> by Stephane Ross, Geoffrey J. Gordon, J. Andrew Bagnell, 2011.
