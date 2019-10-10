@@ -15,7 +15,7 @@ Paper Collection for Imitation Learning in RL with brief introductions.
 
 ## Reveiws&Tutorials
 
-* <[Global overview of Imitation Learning](https://arxiv.org/abs/1801.06503)> by Alexandre Attia, Sharone Dayan, 2018. (Slide)
+* <[Global overview of Imitation Learning](https://arxiv.org/abs/1801.06503)> by Alexandre Attia, Sharone Dayan, 2018.
 
 * <[An Algorithmic Perspective on Imitation Learning](https://www.nowpublishers.com/article/Details/ROB-053) by Takayuki Osa et al., 2018.
 
