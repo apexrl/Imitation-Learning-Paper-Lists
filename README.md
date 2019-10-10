@@ -15,7 +15,11 @@ Paper Collection for Imitation Learning in RL.
 
 ## Behavior-Cloning
 
-* <[Bandit problems: sequential allocation of experiments (monographs on statistics and applied probability)](https://link.springer.com/content/pdf/10.1007/978-94-015-3711-7.pdf)> by Donald A Berry and Bert Fristedt, 1985.
+* <[Causal Confusion in Imitation Learning](https://arxiv.org/abs/1905.11979)> by Pim de Haan, Dinesh Jayaraman, Sergey Levine, 2019.
+
+* <[Associate Latent Encodings in Learning from Demonstrations](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14509)> by Hang Yin, Francisco S. Melo, Aude Billard, Ana Paiva, 2017.
+
+* <[A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning](https://arxiv.org/abs/1011.0686)> by Stephane Ross, Geoffrey J. Gordon, J. Andrew Bagnell, 2011.
 
 ## Inverse-RL
 
