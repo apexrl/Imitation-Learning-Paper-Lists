@@ -30,6 +30,8 @@ Brenna, D.Argall, SoniaChernova, ManuelaVeloso, BrettBrowning, 2009.
 
 ## Behavior-Cloning
 
+Behavior Cloning directly replicating the expert’s behavior with supervised learning.
+
 * <[Causal Confusion in Imitation Learning](https://arxiv.org/abs/1905.11979)> by Pim de Haan, Dinesh Jayaraman, Sergey Levine, 2019.
 
 * <[Associate Latent Encodings in Learning from Demonstrations](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14509)> by Hang Yin, Francisco S. Melo, Aude Billard, Ana Paiva, 2017.
@@ -43,6 +45,8 @@ Brenna, D.Argall, SoniaChernova, ManuelaVeloso, BrettBrowning, 2009.
 * <[Apprenticeship Learning Using Linear Programming](http://rob.schapire.net/papers/SyedBowlingSchapireICML2008.pdf)> by Umar Syed, Michael Bowling and Robert E. Schapire, 2008.
 
 ## Inverse-RL
+
+Inverse RL learns hidden objectives of the expert’s behavior.
 
 ### Reveiws&Tutorials
 
@@ -88,6 +92,8 @@ Brian D. Ziebart, Andrew Maas, J.Andrew Bagnell, and Anind K. Dey, 2008.
 * <[Algorithms for Inverse Reinforcement Learning](http://ai.stanford.edu/~ang/papers/icml00-irl.pdf)> by AY Ng, SJ Russell, 2000.
 
 ## GAIL
+
+GAIL apply generative adversarial training manner into learning expert policies.
 
 * [Model based] <[Model Imitation for Model-Based Reinforcement Learning](https://arxiv.org/pdf/1909.11821.pdf)> by Yueh-Hua Wu, Ting-Han Fan, Peter J. Ramadge, Hao Su, 2019.
 
