@@ -3,17 +3,9 @@ Paper Collection for Imitation Learning in RL with brief introductions.
 
 ## Overview
 * [Behavior-Cloning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Behavior-Cloning)
-  * [xxx](https://github.com/Ericonaldo/RL-Exploration-Paper-Lists#xxx)
-  * [xxx]()
+* [Apprenticeship Learning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Apprenticeship-Learning)
 * [Inverse-RL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Inverse-RL)
-  * [xxx](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#xxx)
-  * [xxx](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#xxx)
-* [Apprenticeship Learning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#GAIL)
-  * [xxx](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#xxx)
-  * [xxx](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#xxx)
 * [GAIL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#GAIL)
-  * [xxx](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#xxx)
-  * [xxx](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#xxx)
 
 
 ## Behavior-Cloning
@@ -23,6 +15,10 @@ Paper Collection for Imitation Learning in RL with brief introductions.
 * <[Associate Latent Encodings in Learning from Demonstrations](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14509)> by Hang Yin, Francisco S. Melo, Aude Billard, Ana Paiva, 2017.
 
 * <[A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning](https://arxiv.org/abs/1011.0686)> by Stephane Ross, Geoffrey J. Gordon, J. Andrew Bagnell, 2011.
+
+## Apprenticeship-Learning
+
+* <[Apprenticeship Learning Using Linear Programming](http://rob.schapire.net/papers/SyedBowlingSchapireICML2008.pdf) by Umar Syed, Michael Bowling and Robert E. Schapire, 2008.
 
 ## Inverse-RL
 
