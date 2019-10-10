@@ -128,4 +128,19 @@ GAIL apply generative adversarial training manner into learning expert policies,
 ## Multi-Agent
 
 ## MA-Inverse-RL
-* <[Cooperative Inverse Reinforcement Learning](http://papers.nips.cc/paper/6420-cooperative-inverse-reinforcement-learning) by Dylan Hadfield-Menell, Stuart J. Russell, Pieter Abbeel and Anca Dragan, 2016.
+
+* <[Cooperative Inverse Reinforcement Learning](http://papers.nips.cc/paper/6420-cooperative-inverse-reinforcement-learning)> by Dylan Hadfield-Menell, Stuart J. Russell, Pieter Abbeel and Anca Dragan, NIPS, 2016.
+
+* <[Multi-Agent Adversarial Inverse Reinforcement Learning](https://arxiv.org/abs/1907.13220)> by Lantao Yu, Jiaming Song, Stefano Ermon. ICML 2019.
+
+* <[Comparison of Multi-agent and Single-agent Inverse Learning on a Simulated Soccer Example](https://arxiv.org/pdf/1403.6822.pdf)> by Lin X, Beling P A, Cogill R. arXiv, 2014.
+
+* <[Multi-agent inverse reinforcement learning for zero-sum games](https://arxiv.org/pdf/1403.6508.pdf)> by Lin X, Beling P A, Cogill R. arXiv, 2014.
+
+* <[Multi-robot inverse reinforcement learning under occlusion with interactions](http://aamas2014.lip6.fr/proceedings/aamas/p173.pdf)> by Bogert K, Doshi P. AAMAS, 2014.
+
+* <[Multi-agent inverse reinforcement learning](http://homes.soic.indiana.edu/natarasr/Papers/mairl.pdf)> by Natarajan S, Kunapuli G, Judah K, et al. ICMLA, 2010.
+
+## MA-GAIL
+
+* <[Multi-Agent Generative Adversarial Imitation Learning](https://papers.nips.cc/paper/7975-multi-agent-generative-adversarial-imitation-learning)> by Jiaming Song, Hongyu Ren, Dorsa Sadigh, Stefano Ermon. NeurIPS 2018.
