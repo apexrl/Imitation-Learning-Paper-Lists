@@ -30,7 +30,7 @@ Brenna, D.Argall, SoniaChernova, ManuelaVeloso, BrettBrowning, 2009.
 
 ## Behavior-Cloning
 
-Behavior Cloning directly replicating the expert’s behavior with supervised learning.
+Behavior Cloning directly replicating the expert’s behavior with supervised learning, which can be improved via data aggregation.
 
 * <[Causal Confusion in Imitation Learning](https://arxiv.org/abs/1905.11979)> by Pim de Haan, Dinesh Jayaraman, Sergey Levine, 2019.
 
@@ -93,7 +93,7 @@ Brian D. Ziebart, Andrew Maas, J.Andrew Bagnell, and Anind K. Dey, 2008.
 
 ## GAIL
 
-GAIL apply generative adversarial training manner into learning expert policies.
+GAIL apply generative adversarial training manner into learning expert policies, which is derived from inverse RL.
 
 * [Model based] <[Model Imitation for Model-Based Reinforcement Learning](https://arxiv.org/pdf/1909.11821.pdf)> by Yueh-Hua Wu, Ting-Han Fan, Peter J. Ramadge, Hao Su, 2019.
 
