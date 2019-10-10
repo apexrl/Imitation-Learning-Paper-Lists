@@ -2,7 +2,7 @@
 Paper Collection for Imitation Learning in RL with brief introductions.
 
 ## Overview
-* [Sigle-Agent](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Sigle-Agent)
+* [Single-Agent](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Sigle-Agent)
   * [Reveiws&Tutorials](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Reveiws&Tutorials)
   * [Behavior-Cloning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Behavior-Cloning)
   * [Apprenticeship Learning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Apprenticeship-Learning)
@@ -11,7 +11,7 @@ Paper Collection for Imitation Learning in RL with brief introductions.
 * [Multi-Agent](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Multi-Agent)
   * [Inverse-RL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#MA-Inverse-RL)
 
-## Sigle-Agent
+## Single-Agent
 
 ## Reveiws&Tutorials
 
