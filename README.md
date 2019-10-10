@@ -10,16 +10,21 @@ Paper Collection for Imitation Learning in RL with brief introductions.
 
 ## Reveiws&Tutorials
 
-* <[Introduction into Imitation Learning
-h](https://www.cl.uni-heidelberg.de/courses/ws18/iml/L1.pdf)> by Artem Sokolov, 2019. (Slide)
+* <[Imitation learning: A survey of learning methods](https://dl.acm.org/citation.cfm?id=3071073.3054912)> by	Ahmed Hussein, Mohamed Medhat Gaber, Eyad Elyan,	Chrisina Jayne, 2017.
 
-* <[Imitation Learning Tutorial in ICML2018](https://sites.google.com/view/icml2018-imitation-learning/)> by Yisong Yue Hoang M. Le, 2018. (Vedio,Slide)
+* <[A survey of robot learning from demonstration](https://www.sciencedirect.com/science/article/pii/S0921889008001772)> by 
+Brenna, D.Argall, SoniaChernova, ManuelaVeloso, BrettBrowning, 2009.
+
+* <[Introduction into Imitation Learning
+h](https://www.cl.uni-heidelberg.de/courses/ws18/iml/L1.pdf)> by Artem Sokolov, 2018. (Slide)
+
+* <[Imitation Learning Tutorial in ICML2018](https://sites.google.com/view/icml2018-imitation-learning/)> by Yisong Yue Hoang M. Le, 2018. (Vedio; Slide)
 
 ## Behavior-Cloning
 
 * <[Causal Confusion in Imitation Learning](https://arxiv.org/abs/1905.11979)> by Pim de Haan, Dinesh Jayaraman, Sergey Levine, 2019.
 
-* <[Associate Latent Encodings in Learning from Demonstrations](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14509)> by Hang Yin, Francisco S. Melo, Aude Billard, Ana Paiva, 2017.
+* <[Associate Latent Encodings in Learning from Demonstrations]>(https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14509)> by Hang Yin, Francisco S. Melo, Aude Billard, Ana Paiva, 2017.
 
 * <[A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning](https://arxiv.org/abs/1011.0686)> by Stephane Ross, Geoffrey J. Gordon, J. Andrew Bagnell, 2011.
 
@@ -28,6 +33,20 @@ h](https://www.cl.uni-heidelberg.de/courses/ws18/iml/L1.pdf)> by Artem Sokolov, 
 * <[Apprenticeship Learning Using Linear Programming](http://rob.schapire.net/papers/SyedBowlingSchapireICML2008.pdf) by Umar Syed, Michael Bowling and Robert E. Schapire, 2008.
 
 ## Inverse-RL
+
+### Reveiws&Tutorials
+
+* <[A Survey of Inverse Reinforcement Learning: Challenges, Methods and Progress](https://arxiv.org/abs/1806.06877)> by Saurabh Arora, Prashant Doshi, 2012.
+
+* <[A survey of inverse reinforcement learning techniques](https://www.emerald.com/insight/content/doi/10.1108/17563781211255862/full/html)> by Shao Zhifei, Er Meng Joo, 2012.
+
+* <[A review of inverse reinforcement learning theory and recent advances](https://ieeexplore.ieee.org/abstract/document/6256507)> by Shao Zhifei, Er Meng Joo, 2012.
+
+* <[Inverse Reinforcement Learning](https://thinkingwires.com/posts/2018-02-13-irl-tutorial-1.html#algorithms) by Johannes Heidecke, 2018. (Blog)
+
+* <[Inverse Reinforcement Learning](https://towardsdatascience.com/inverse-reinforcement-learning-6453b7cdc90d) by Alexandre Gonfalonieri, 2018.（Blog）
+
+### Papers
 
 * <[Learning to Optimize via Wasserstein Deep Inverse Optimal Control
 ](https://arxiv.org/abs/1805.08395)> by Yichen Wang, Le Song, and Hongyuan Zha, 2018.
