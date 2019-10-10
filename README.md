@@ -15,8 +15,7 @@ Paper Collection for Imitation Learning in RL with brief introductions.
 
 ## Reveiws&Tutorials
 
-* <[Introduction into Imitation Learning
-h](https://www.cl.uni-heidelberg.de/courses/ws18/iml/L1.pdf)> by Artem Sokolov, 2018. (Slide)
+* <[Introduction into Imitation Learning](https://www.cl.uni-heidelberg.de/courses/ws18/iml/L1.pdf)> by Artem Sokolov, 2018. (Slide)
 
 * <[Imitation Learning Tutorial in ICML2018](https://sites.google.com/view/icml2018-imitation-learning/)> by Yisong Yue Hoang M. Le, 2018. (Vedio; Slide)
 
@@ -108,6 +107,8 @@ Brian D. Ziebart, Andrew Maas, J.Andrew Bagnell, and Anind K. Dey, 2008.
 * <[InfoGAIL: Interpretable Imitation Learning from Visual Demonstrations](http://papers.nips.cc/paper/6971-infogail-interpretable-imitation-learning-from-visual-demonstrations)> by Yunzhu Li, Jiaming Song and Stefano Ermon, 2017.
 
 * <[Generative Adversarial Imitation Learning](http://papers.nips.cc/paper/6391-generative-adversarial-imitation-learning)> by Jonathan Ho and Stefano Ermon, 2016.
+
+## Multi-Agent
 
 ## MA-Inverse-RL
 * <[Cooperative Inverse Reinforcement Learning](http://papers.nips.cc/paper/6420-cooperative-inverse-reinforcement-learning) by Dylan Hadfield-Menell, Stuart J. Russell, Pieter Abbeel and Anca Dragan, 2016.
