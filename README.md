@@ -1,5 +1,5 @@
 # Imitation-Learning-Paper-Lists
-Paper Collection for Imitation Learning in RL with brief introductions. Imitation learning is to learn expert policies from sets of demonstrations. These methods in this collection typically do not assume to ask for an interactive expert for correctness and data aggregation, but when it is allowed, then lead to series of interactive direct policy learning methdos, which is often analyzed via learing reductions. Since we do not expect for an interactive expert, we only list the original DAgger (Dataset Aggregation) paper in [Behavior-Cloning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Behavior-Cloning), and we will concentrate on those who only learn from pre-collected demonstrations.
+Paper Collection for Imitation Learning in RL with brief introductions. Imitation learning is to learn expert policies from sets of demonstrations. These methods in this collection typically do not assume to ask for an interactive expert for correctness and data aggregation, but when it is allowed, then lead to series of interactive direct policy learning methdos, which is often analyzed via learing reductions. Since we do not expect for an interactive expert, we only list the original DAgger (Dataset Aggregation) paper and the original policy aggeration papers in [Behavior-Cloning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Behavior-Cloning), and we will concentrate on those who only learn from pre-collected demonstrations.
 
 ## Overview
 * [Single-Agent](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Single-Agent)
@@ -37,6 +37,11 @@ Behavior Cloning (BC) directly replicating the expert’s behavior with supervis
 * <[Associate Latent Encodings in Learning from Demonstrations](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14509)> by Hang Yin, Francisco S. Melo, Aude Billard, Ana Paiva, 2017.
 
 * [DAgger] <[A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning](https://arxiv.org/abs/1011.0686)> by Stephane Ross, Geoffrey J. Gordon, J. Andrew Bagnell, 2011.
+
+
+* [PoicyAggregation-SMILe] <[Efficient reductions for imitation learning](http://www.jmlr.org/proceedings/papers/v9/ross10a/ross10a.pdf)> by S Ross, D Bagnell, 2010.
+
+* [PoicyAggregation-SEARN] <[Search-based Structured Prediction](https://arxiv.org/abs/0907.0786)> by Hal Daumé III, John Langford, Daniel Marcu, 2009.
 
 ## Apprenticeship-Learning
 
