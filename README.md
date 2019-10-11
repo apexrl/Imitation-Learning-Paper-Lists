@@ -1,11 +1,14 @@
 # Imitation-Learning-Paper-Lists
-Paper Collection for Imitation Learning in RL with brief introductions. Imitation learning is to learn expert policies from sets of demonstrations. These methods in this collection typically do not assume to ask for an interactive expert for correctness and data aggregation, but when it is allowed, then lead to series of interactive direct policy learning methdos, which is often analyzed via learing reductions. Since we do not expect for an interactive expert, we only list the original DAgger (Dataset Aggregation) paper and the original policy aggeration papers in [Behavior-Cloning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Behavior-Cloning), and we will concentrate on those who only learn from pre-collected demonstrations.
+Paper Collection for Imitation Learning in RL with brief introductions.
+
+To be precise, the "imitation learning" is the general problem of learning from expert demonstration (LfD). There are 2 names derived from such a description, which are Imitation Learning and Apprenticeship Learning due to historical reasons. Usually, apprenticeship learning is mentioned in the context of "Apprenticeship learning via inverse reinforcement learning (IRL)" which recovers the reward function and learns policies from it, while imitation learning began with behavior cloning that learn the policy directly (ref). However, with the development of related researches, "imitation learning" is always used to represent the general LfD problem setting, which is also our view of point.
+
+Typically, methods collected in this collection do not assume to ask for an interactive expert for correctness and data aggregation, but when it is allowed, then lead to series of interactive direct policy learning methdos, which is often analyzed via learing reductions. Since we do not expect for an interactive expert, we only list the original DAgger (Dataset Aggregation) paper and the original policy aggeration papers in [Behavior-Cloning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Behavior-Cloning), and we will concentrate on those who only learn from pre-collected demonstrations.
 
 ## Overview
 * [Single-Agent](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Single-Agent)
   * [Reveiws&Tutorials](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Reveiws\&Tutorials)
   * [Behavior-Cloning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Behavior-Cloning)
-  * [Apprenticeship-Learning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Apprenticeship-Learning)
   * [Inverse-RL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Inverse-RL)
   * [GAIL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#GAIL)
 * [Multi-Agent](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Multi-Agent)
@@ -43,12 +46,6 @@ Behavior Cloning (BC) directly replicating the expert’s behavior with supervis
 
 * [PoicyAggregation-SEARN] <[Search-based Structured Prediction](https://arxiv.org/abs/0907.0786)> by Hal Daumé III, John Langford, Daniel Marcu, 2009.
 
-## Apprenticeship-Learning
-
-* <[Apprenticeship Learning using Inverse Reinforcement Learning and Gradient Methods](https://arxiv.org/abs/1206.5264)> by Gergely Neu, Csaba Szepesvari, 2012.
-
-* <[Apprenticeship Learning Using Linear Programming](http://rob.schapire.net/papers/SyedBowlingSchapireICML2008.pdf)> by Umar Syed, Michael Bowling and Robert E. Schapire, 2008.
-
 ## Inverse-RL
 
 Inverse Rinforcement Learning (IRL) learns hidden objectives of the expert’s behavior.
@@ -85,6 +82,8 @@ Inverse Rinforcement Learning (IRL) learns hidden objectives of the expert’s b
 * <[The Principle of Maximum Causal Entropy
 for Estimating Interacting Processes](http://ieeexplore.ieee.org/abstract/document/6479340/)> by Brian D. Ziebart, J. Andrew Bagnell, and Anind K. Dey, 2012.
 
+* <[Apprenticeship Learning using Inverse Reinforcement Learning and Gradient Methods](https://arxiv.org/abs/1206.5264)> by Gergely Neu, Csaba Szepesvari, 2012.
+
 * <[Nonlinear Inverse Reinforcement Learning with Gaussian Processes](http://papers.nips.cc/paper/4420-nonlinear-inverse-reinforcement-learning-with-gaussian-processes)> by Sergey Levine, Zoran Popovic and Vladlen Koltun, 2011.
 
 * <[Relative Entropy Inverse Reinforcement Learning](http://www.jmlr.org/proceedings/papers/v15/boularias11a/boularias11a.pdf)> by Abdeslam Boularias, Jens Kober and Jan Peters, 2011.
@@ -92,7 +91,12 @@ for Estimating Interacting Processes](http://ieeexplore.ieee.org/abstract/docume
 * <[Maximum Entropy Inverse Reinforcement Learning](https://www.aaai.org/Papers/AAAI/2008/AAAI08-227.pdf)> by 
 Brian D. Ziebart, Andrew Maas, J.Andrew Bagnell, and Anind K. Dey, 2008.
 
+* <[Apprenticeship Learning Using Linear Programming](http://rob.schapire.net/papers/SyedBowlingSchapireICML2008.pdf)> by Umar Syed, Michael Bowling and Robert E. Schapire, 2008.
+
 * <[Bayesian Inverse Reinforcement Learning](https://www.aaai.org/Papers/IJCAI/2007/IJCAI07-416.pdf)> by Deepak Ramachandran and Eyal Amir, 2007.
+
+* <[Apprenticeship learning via inverse reinforcement learning](https://dl.acm.org/citation.cfm?id=1015430)> by	Pieter Abbeel, Andrew Y. Ng
+, ICML 2004.
 
 * <[Algorithms for Inverse Reinforcement Learning](http://ai.stanford.edu/~ang/papers/icml00-irl.pdf)> by AY Ng, SJ Russell, 2000.
 
