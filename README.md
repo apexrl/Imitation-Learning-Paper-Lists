@@ -133,9 +133,11 @@ Generative Adversarial Imitation Learning (GAIL) apply generative adversarial tr
 
 ## Multi-Agent
 
+* <[Coordinated multi-agent imitation learning](https://dl.acm.org/citation.cfm?id=3305587)> by Dylan Hadfield-Menell, Stuart J. Russell, Pieter Abbeel and Anca Dragan, NIPS 2016.
+
 ## MA-Inverse-RL
 
-* <[Cooperative Inverse Reinforcement Learning](http://papers.nips.cc/paper/6420-cooperative-inverse-reinforcement-learning)> by Dylan Hadfield-Menell, Stuart J. Russell, Pieter Abbeel and Anca Dragan, NIPS 2016.
+* <[Cooperative Inverse Reinforcement Learning](http://papers.nips.cc/paper/6420-cooperative-inverse-reinforcement-learning)> by 	Hoang M. Le, Yisong Yue, Peter Carr, Patrick Lucey,	ICML 2017.
 
 * <[Multi-Agent Adversarial Inverse Reinforcement Learning](https://arxiv.org/abs/1907.13220)> by Lantao Yu, Jiaming Song, Stefano Ermon. ICML 2019.
 
@@ -150,3 +152,4 @@ Generative Adversarial Imitation Learning (GAIL) apply generative adversarial tr
 ## MA-GAIL
 
 * <[Multi-Agent Generative Adversarial Imitation Learning](https://papers.nips.cc/paper/7975-multi-agent-generative-adversarial-imitation-learning)> by Jiaming Song, Hongyu Ren, Dorsa Sadigh, Stefano Ermon. NeurIPS 2018.
+
