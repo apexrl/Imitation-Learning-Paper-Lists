@@ -11,6 +11,7 @@ Typically, methods collected in this collection do not assume to ask for an inte
   * [Behavior-Cloning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Behavior-Cloning)
   * [Inverse-RL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Inverse-RL)
   * [GAIL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#GAIL)
+  * [Support Estimation](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Support-Estimation)
 * [Multi-Agent](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Multi-Agent)
   * [MA-Inverse-RL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#MA-Inverse-RL)
 
@@ -144,6 +145,13 @@ Generative Adversarial Imitation Learning (GAIL) apply generative adversarial tr
 
 * <[Generative Adversarial Imitation Learning](http://papers.nips.cc/paper/6391-generative-adversarial-imitation-learning)> by Jonathan Ho and Stefano Ermon, 2016.
   * Propose **GAIL**.
+  
+## Support-Estimation
+
+Recently, there is a paper designs a new idea for imitation learning, which learns a fixed reward signal which obviates the need for dynamic update of reward functions.
+
+* <[Random Expert Distillation: Imitation Learning via Expert Policy Support Estimation](https://arxiv.org/pdf/1905.06750)> by Ruohan Wang, Carlo Ciliberto, Pierluigi Amadori, Yiannis Demirisn, 2019.
+  * Propose **RED**, combine RND and AE.
 
 ## Multi-Agent
 
