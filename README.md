@@ -35,12 +35,16 @@ Behavior Cloning (BC) directly replicating the expert’s behavior with supervis
 
 * <[Causal Confusion in Imitation Learning](https://arxiv.org/abs/1905.11979)> by Pim de Haan, Dinesh Jayaraman, Sergey Levine, 2019.
 
+* <[One-Shot High-Fidelity Imitation: Training Large-Scale Deep Nets with RL](https://arxiv.org/abs/1810.05017)>, Le Paine et al, 2018.   * Propose **MetaMimic**.
+
+* <[DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills](https://xbpeng.github.io/projects/DeepMimic/2018_TOG_DeepMimic.pdf)>, Peng et al, 2018. 
+  * Propose **DeepMimic**.
+
 * <[Hierarchical Imitation and Reinforcement Learning](https://arxiv.org/abs/1803.00590)> by Hoang M. Le, Nan Jiang, Alekh Agarwal, Miroslav Dudík, Yisong Yue, Hal Daumé III, 2018.
 
 * <[Associate Latent Encodings in Learning from Demonstrations](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14509)> by Hang Yin, Francisco S. Melo, Aude Billard, Ana Paiva, 2017.
 
 * [DAgger] <[A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning](https://arxiv.org/abs/1011.0686)> by Stephane Ross, Geoffrey J. Gordon, J. Andrew Bagnell, 2011.
-
 
 * [PoicyAggregation-SMILe] <[Efficient reductions for imitation learning](http://www.jmlr.org/proceedings/papers/v9/ross10a/ross10a.pdf)> by S Ross, D Bagnell, 2010.
 
@@ -66,6 +70,9 @@ Inverse Rinforcement Learning (IRL) learns hidden objectives of the expert’s b
 
 ### Papers
 
+* <[Variational Discriminator Bottleneck: Improving Imitation Learning, Inverse RL, and GANs by Constraining Information Flow](https://arxiv.org/abs/1810.00821)>, Peng et al, 2018.
+  * Propose **VAIL**.
+
 * <[Learning to Optimize via Wasserstein Deep Inverse Optimal Control
 ](https://arxiv.org/abs/1805.08395)> by Yichen Wang, Le Song, and Hongyuan Zha, 2018.
 
@@ -73,6 +80,8 @@ Inverse Rinforcement Learning (IRL) learns hidden objectives of the expert’s b
 
 * <[A Connection Between Generative Adversarial Networks, Inverse Reinforcement Learning, and Energy-Based Models
 ](https://arxiv.org/abs/1611.03852)> by Chelsea Finn, Paul Christiano, Pieter Abbeel, Sergey Levine, 2016.
+
+* <[Guided Cost Learning: Deep Inverse Optimal Control via Policy Optimization](https://arxiv.org/abs/1603.00448)>, Finn et al, 2016. **Algorithm: GCL.**
 
 * <[Infinite Time Horizon Maximum Causal Entropy Inverse Reinforcement Learning
  ](https://ieeexplore.ieee.org/document/7040156)> by Michael Bloem and Nicholas Bambos, 2014.
@@ -87,6 +96,9 @@ for Estimating Interacting Processes](http://ieeexplore.ieee.org/abstract/docume
 * <[Nonlinear Inverse Reinforcement Learning with Gaussian Processes](http://papers.nips.cc/paper/4420-nonlinear-inverse-reinforcement-learning-with-gaussian-processes)> by Sergey Levine, Zoran Popovic and Vladlen Koltun, 2011.
 
 * <[Relative Entropy Inverse Reinforcement Learning](http://www.jmlr.org/proceedings/papers/v15/boularias11a/boularias11a.pdf)> by Abdeslam Boularias, Jens Kober and Jan Peters, 2011.
+
+* <[Modeling Purposeful Adaptive Behavior with the Principle of Maximum Causal Entropy](http://www.cs.cmu.edu/~bziebart/publications/thesis-bziebart.pdf)>, Ziebart 2010.
+  * **Contributions:** Crisp formulation of maximum entropy IRL.
 
 * <[Maximum Entropy Inverse Reinforcement Learning](https://www.aaai.org/Papers/AAAI/2008/AAAI08-227.pdf)> by 
 Brian D. Ziebart, Andrew Maas, J.Andrew Bagnell, and Anind K. Dey, 2008.
@@ -130,6 +142,7 @@ Generative Adversarial Imitation Learning (GAIL) apply generative adversarial tr
 * <[InfoGAIL: Interpretable Imitation Learning from Visual Demonstrations](http://papers.nips.cc/paper/6971-infogail-interpretable-imitation-learning-from-visual-demonstrations)> by Yunzhu Li, Jiaming Song and Stefano Ermon, 2017.
 
 * <[Generative Adversarial Imitation Learning](http://papers.nips.cc/paper/6391-generative-adversarial-imitation-learning)> by Jonathan Ho and Stefano Ermon, 2016.
+  * Propose **GAIL**.
 
 ## Multi-Agent
 
