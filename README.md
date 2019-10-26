@@ -1,7 +1,7 @@
 # Imitation-Learning-Paper-Lists
 Paper Collection for Imitation Learning in RL with brief introductions.
 
-To be precise, the "imitation learning" is the general problem of learning from expert demonstration (LfD). There are 2 names derived from such a description, which are Imitation Learning and Apprenticeship Learning due to historical reasons. Usually, apprenticeship learning is mentioned in the context of "Apprenticeship learning via inverse reinforcement learning (IRL)" which recovers the reward function and learns policies from it, while imitation learning began with behavior cloning that learn the policy directly (ref). However, with the development of related researches, "imitation learning" is always used to represent the general LfD problem setting, which is also our view of point.
+To be precise, the "imitation learning" is the general problem of learning from expert demonstration (LfD). There are 2 names derived from such a description, which are Imitation Learning and Apprenticeship Learning due to historical reasons. Usually, apprenticeship learning is mentioned in the context of "Apprenticeship learning via inverse reinforcement learning (IRL)" which recovers the reward function and learns policies from it, while imitation learning began with behavior cloning that learn the policy directly [ref](https://cs.stackexchange.com/questions/56577/apprenticeship-vs-imitation-learning-what-is-the-difference). However, with the development of related researches, "imitation learning" is always used to represent the general LfD problem setting, which is also our view of point.
 
 Typically, methods collected in this collection do not assume to ask for an interactive expert for correctness and data aggregation, but when it is allowed, then lead to series of interactive direct policy learning methods, which is often analyzed via learning reductions. Since we do not expect for an interactive expert, we only list the original DAgger (Dataset Aggregation) paper and the original policy aggeration papers in [Behavior-Cloning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Behavior-Cloning), and we will concentrate on those who only learn from pre-collected demonstrations.
 
@@ -35,7 +35,8 @@ Behavior Cloning (BC) directly replicating the expert’s behavior with supervis
 
 * <[Causal Confusion in Imitation Learning](https://arxiv.org/abs/1905.11979)> by Pim de Haan, Dinesh Jayaraman, Sergey Levine, 2019.
 
-* <[One-Shot High-Fidelity Imitation: Training Large-Scale Deep Nets with RL](https://arxiv.org/abs/1810.05017)>, Le Paine et al, 2018.   * Propose **MetaMimic**.
+* <[One-Shot High-Fidelity Imitation: Training Large-Scale Deep Nets with RL](https://arxiv.org/abs/1810.05017)>, Le Paine et al, 2018.
+  * Propose **MetaMimic**.
 
 * <[DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills](https://xbpeng.github.io/projects/DeepMimic/2018_TOG_DeepMimic.pdf)>, Peng et al, 2018. 
   * Propose **DeepMimic**.
