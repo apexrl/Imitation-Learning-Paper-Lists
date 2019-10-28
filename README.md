@@ -114,7 +114,7 @@ Brian D. Ziebart, Andrew Maas, J.Andrew Bagnell, and Anind K. Dey, 2008.
 
 * <[Algorithms for Inverse Reinforcement Learning](http://ai.stanford.edu/~ang/papers/icml00-irl.pdf)> by AY Ng, SJ Russell, 2000.
 
-## GAIL
+## Generative Adversarial Methods
 
 Generative Adversarial Imitation Learning (GAIL) apply generative adversarial training manner into learning expert policies, which is derived from inverse RL.
 
@@ -127,7 +127,9 @@ Generative Adversarial Imitation Learning (GAIL) apply generative adversarial tr
 * <[Adversarial Imitation Learning from Incomplete Demonstrations](https://arXiv.org/abs/1905.12310)> by Mingfei Sun and Xiaojuan Ma, 2019.
 
 * <[Self-Improving Generative Adversarial Reinforcement Learning
- ](https://dl.acm.org/citation.cfm?id=3331673)> by	Yang Liu,	Yifeng Zeng, Yingke Chen, Jing Tang, Yinghui Pan, 2019.
+ ](https://dl.acm.org/citation.cfm?id=3331673)> by Yang Liu, Yifeng Zeng, Yingke Chen, Jing Tang, Yinghui Pan, 2019.
+
+* [GMMIL] <[Imitation Learning via Kernel Mean Embedding](https://www-users.cs.umn.edu/~hspark/mmd.pdf)> by Kee-Eung Kim, Hyun Soo Park, AAAI 2018.
  
 * <[Discriminator-Actor-Critic: Addressing Sample Inefficiency and Reward Bias in Adversarial Imitation Learning
 ](https://arxiv.org/abs/1809.02925)> by Ilya Kostrikov, Kumar Krishna Agrawal, Debidatta Dwibedi, Sergey Levine, Jonathan Tompson, 2018.
@@ -141,10 +143,11 @@ Generative Adversarial Imitation Learning (GAIL) apply generative adversarial tr
 * <[End-to-End Differentiable Adversarial Imitation Learning
  ](http://proceedings.mlr.press/v70/baram17a.html)> by Nir Baram, Oron Anschel, Itai Caspi, Shie Mannor, 2017.
 
-* <[InfoGAIL: Interpretable Imitation Learning from Visual Demonstrations](http://papers.nips.cc/paper/6971-infogail-interpretable-imitation-learning-from-visual-demonstrations)> by Yunzhu Li, Jiaming Song and Stefano Ermon, 2017.
+* [InfoGAIL] <[InfoGAIL: Interpretable Imitation Learning from Visual Demonstrations](http://papers.nips.cc/paper/6971-infogail-interpretable-imitation-learning-from-visual-demonstrations)> by Yunzhu Li, Jiaming Song and Stefano Ermon, 2017.
+  * Propose **InfoGAIL**, learn interpretable (diverse) policies with mutual information technique (See InfoGAN).
 
-* <[Generative Adversarial Imitation Learning](http://papers.nips.cc/paper/6391-generative-adversarial-imitation-learning)> by Jonathan Ho and Stefano Ermon, 2016.
-  * Propose **GAIL**.
+* [GAIL] <[Generative Adversarial Imitation Learning](http://papers.nips.cc/paper/6391-generative-adversarial-imitation-learning)> by Jonathan Ho and Stefano Ermon, 2016.
+  * Propose **GAIL**, minimize the JS divergence of policy and expert policy with GAN's technique.
   
 ## Support-Estimation
 
