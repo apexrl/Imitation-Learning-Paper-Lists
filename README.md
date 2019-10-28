@@ -10,7 +10,7 @@ Typically, methods collected in this collection do not assume to ask for an inte
   * [Reveiws&Tutorials](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Reveiws\&Tutorials)
   * [Behavior-Cloning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Behavior-Cloning)
   * [Inverse-RL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Inverse-RL)
-  * [GAIL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#GAIL)
+  * [Generative-Adversarial-Methods](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Generative-Adversarial-Methods)
   * [Support Estimation](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Support-Estimation)
 * [Multi-Agent](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Multi-Agent)
   * [MA-Inverse-RL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#MA-Inverse-RL)
@@ -114,7 +114,7 @@ Brian D. Ziebart, Andrew Maas, J.Andrew Bagnell, and Anind K. Dey, 2008.
 
 * <[Algorithms for Inverse Reinforcement Learning](http://ai.stanford.edu/~ang/papers/icml00-irl.pdf)> by AY Ng, SJ Russell, 2000.
 
-## Generative Adversarial Methods
+## Generative-Adversarial-Methods
 
 Generative Adversarial Imitation Learning (GAIL) apply generative adversarial training manner into learning expert policies, which is derived from inverse RL.
 
