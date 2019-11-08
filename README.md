@@ -210,11 +210,11 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
 
 * <[R2P2: A ReparameteRized Pushforward Policy for Diverse, Precise Generative Path Forecasting](https://link.springer.com/chapter/10.1007/978-3-030-01261-8_47)>, by Qian Deheng, Ren Dongchun, Meng Yingying, Zhu Yanliang, Ding Shuguang, Fu Sheng, Wang Zhichao and Xia Huaxia, ECCV 2018. [[blog]](http://www.cs.cmu.edu/~nrhineha/R2P2.html) 
 
-  * <[Learning Montezuma’s Revenge from a Single Demonstration](https://arxiv.org/pdf/1812.03381.pdf)>, by Tim Salimans and Richard Chen, 2018.
+* <[Learning Montezuma’s Revenge from a Single Demonstration](https://arxiv.org/pdf/1812.03381.pdf)>, by Tim Salimans and Richard Chen, 2018.
   
-  * <[ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst](https://arxiv.org/pdf/1812.03079.pdf)>, by Mayank Bansal, Alex Krizhevsky and Abhijit Ogale, 2018.
+* <[ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst](https://arxiv.org/pdf/1812.03079.pdf)>, by Mayank Bansal, Alex Krizhevsky and Abhijit Ogale, 2018.
   
-  * <[Video Imitation GAN: Learning control policies by imitating raw videos using generative adversarial reward estimation](https://arxiv.org/pdf/1810.01108.pdf)>, by Subhajit Chaudhury, Daiki Kimura, Asim Munawar and Ryuki Tachibana, 2018.
+* <[Video Imitation GAN: Learning control policies by imitating raw videos using generative adversarial reward estimation](https://arxiv.org/pdf/1810.01108.pdf)>, by Subhajit Chaudhury, Daiki Kimura, Asim Munawar and Ryuki Tachibana, 2018.
 
   * <[Query-Efficient Imitation Learning for End-to-End Autonomous Driving](https://arxiv.org/abs/1605.06450)>, by Jiakai Zhang and Kyunghyun Cho, 2016.
 
