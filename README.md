@@ -5,13 +5,13 @@ To be precise, the "imitation learning" is the general problem of learning from 
 
 Typically, different settings of imitation learning derive to different specific areas. A general setting is that one can only obtain (1) pre-collected trajectories ((s,a) pairs) from uninteractive expert (2) he can interact with the environments (with simulators) (3) without reward signals. Here we list some of the other settings as below:
 
-No actions and only state / observations -> Imitation Learning From Observations (ILFO).
+1. No actions and only state / observations -> Imitation Learning From Observations (ILFO).
 
-With reward signals -> Imitation Learning with Rewards.
+2. With reward signals -> Imitation Learning with Rewards.
 
-Interactive expert for correctness and data aggregation -> On-policy Imitation Learning (begin as Dagger, Dataset Aggregation).
+3. Interactive expert for correctness and data aggregation -> On-policy Imitation Learning (begin as Dagger, Dataset Aggregation).
 
-Can not interact with Environments -> Batch RL (see a particular list in [here](https://github.com/apexrl/Batch-RL-Paper-Lists).)
+4. Can not interact with Environments -> Batch RL (see a particular list in [here](https://github.com/apexrl/Batch-RL-Paper-Lists).)
 
 In this collection, we will concentrate on the general setting and we collect other settings in "Other-Settings" section. For other settings, such as "Self-imitation learning" which imitate the policy from one's own historical data, we do not regard it as a imitation learning task.
 
