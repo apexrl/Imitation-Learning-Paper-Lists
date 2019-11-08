@@ -13,7 +13,7 @@ Typically, different settings of imitation learning derive to different specific
 
 4. Can not interact with Environments -> Batch RL (see a particular list in [here](https://github.com/apexrl/Batch-RL-Paper-Lists).)
 
-In this collection, we will concentrate on the general setting and we collect other settings in "Other-Settings" section. For other settings, such as "Self-imitation learning" which imitate the policy from one's own historical data, we do not regard it as an imitation learning task.
+In this collection, we will concentrate on the general setting and we collect other settings in "[Other Settings](https://github.com/apexrl/Imitation-Learning-Paper-Lists/blob/master/README.md#other-settings)" section. For other settings, such as "Self-imitation learning" which imitate the policy from one's own historical data, we do not regard it as an imitation learning task.
 
 These papers are classified mainly based on their methodology instead and their specific task settings (except single-agent/multi-agent settings) but since there are many cross-domain papers, the classification is just for reference. As you can see, much works focus on Robotics, especially papers of UCB.
 
