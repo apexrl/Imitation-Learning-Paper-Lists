@@ -3,7 +3,17 @@ Paper Collection for Imitation Learning in RL with brief introductions. This col
 
 To be precise, the "imitation learning" is the general problem of learning from expert demonstration (LfD). There are 2 names derived from such a description, which are Imitation Learning and Apprenticeship Learning due to historical reasons. Usually, apprenticeship learning is mentioned in the context of "Apprenticeship learning via inverse reinforcement learning (IRL)" which recovers the reward function and learns policies from it, while imitation learning began with behavior cloning that learn the policy directly [ref](https://cs.stackexchange.com/questions/56577/apprenticeship-vs-imitation-learning-what-is-the-difference). However, with the development of related researches, "imitation learning" is always used to represent the general LfD problem setting, which is also our view of point.
 
-Typically, methods collected in this collection do not assume to ask for an interactive expert for correctness and data aggregation, but when it is allowed, then lead to series of interactive direct policy learning methods, which is often analyzed via learning reductions. Since we do not expect for an interactive expert, we only list the original DAgger (Dataset Aggregation, also called on-policy imitation learning) paper and the original policy aggeration papers in [Behavior-Cloning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Behavior-Cloning), and we will concentrate on those who only learn from pre-collected demonstrations.
+Typically, different settings of imitation learning derive to different specific areas. A general setting is that one can only obtain (1) pre-collected trajectories ((s,a) pairs) from uninteractive expert (2) he can interact with the environments (with simulators) (3) without reward signals. Here we list some of the other settings as below:
+
+No actions and only state / observations -> Imitation Learning From Observations (ILFO).
+
+With reward signals -> Imitation Learning with Rewards.
+
+Interactive expert for correctness and data aggregation -> On-policy Imitation Learning (begin as Dagger, Dataset Aggregation).
+
+Can not interact with Environments -> Batch RL (see a particular list in [here](https://github.com/apexrl/Batch-RL-Paper-Lists).)
+
+In this collection, we will concentrate on the general setting and we collect other settings in "Other-Settings" section. For other settings, such as "Self-imitation learning" which imitate the policy from one's own historical data, we do not regard it as a imitation learning task.
 
 These paper are classified mainly based on their methodology instead and their specific task settings (except single-agent/multi-agent settings) but since there are many cross-domain papers, the classification is just for reference. As you can see, there are much works that are focus on Robotics.
 
@@ -13,10 +23,15 @@ These paper are classified mainly based on their methodology instead and their s
   * [Behavior-Cloning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Behavior-Cloning)
   * [Inverse-RL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Inverse-RL)
   * [Generative-Adversarial-Methods](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Generative-Adversarial-Methods)
-  * [Support Estimation](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Support-Estimation)
-  * 
+  * [Support-Estimation-Methods](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Support-Estimation-Methods)
+  * [Other-Methods](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Other-Methods)
 * [Multi-Agent](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Multi-Agent)
   * [MA-Inverse-RL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#MA-Inverse-RL)
+* [Other-Settings](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Other-Settings)
+  * [Imitation Learning from Observations](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Imitation-Learning-from-Observations)
+  * [Imitation Learning with Rewards](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Imitation-Learning-with-Rewards)
+  * [On-policy Imitation Learning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#On-policy-Imitation-Learning)
+  * [Batch-RL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Batch-RL)
 * [Applications](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Applications)
 
 # Single-Agent
@@ -42,15 +57,17 @@ Brenna, D.Argall, SoniaChernova, ManuelaVeloso, BrettBrowning, 2009.
 
 Behavior Cloning (BC) directly replicating the expert’s behavior with supervised learning, which can be improved via data aggregation. One can say that BC is the simplest case of interactive direct policy learning.
 
-* <[Graph-Structured Visual Imitation](https://arxiv.org/abs/1907.05518)>, Maximilian Sieb, Zhou Xian, Audrey Huang, Oliver Kroemer and Katerina Fragkiadaki, CoRL 2019.
+* [SQIL: Imitation Learning via Regularized Behavioral Cloning](https://arxiv.org/pdf/1905.11108), by Siddharth Reddy, Anca D. Dragan and Sergey Levine, 2019.
+
+* <[Graph-Structured Visual Imitation](https://arxiv.org/abs/1907.05518)>, by Maximilian Sieb, Zhou Xian, Audrey Huang, Oliver Kroemer and Katerina Fragkiadaki, CoRL 2019.
   * This paper cast visual imitation as a visual correspondence problem in robotics. 
   
 * <[Causal Confusion in Imitation Learning](https://arxiv.org/abs/1905.11979)> by Pim de Haan, Dinesh Jayaraman, Sergey Levine, 2019.
 
-* [MetaMimic]<[One-Shot High-Fidelity Imitation: Training Large-Scale Deep Nets with RL](https://arxiv.org/abs/1810.05017)>, Le Paine et al, 2018.
+* [MetaMimic] <[One-Shot High-Fidelity Imitation: Training Large-Scale Deep Nets with RL](https://arxiv.org/abs/1810.05017)>, Le Paine et al, 2018.
   * Propose **MetaMimic**.
 
-* [DeepMimic]<[DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills](https://xbpeng.github.io/projects/DeepMimic/2018_TOG_DeepMimic.pdf)>, Peng et al, 2018. 
+* [DeepMimic] <[DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills](https://xbpeng.github.io/projects/DeepMimic/2018_TOG_DeepMimic.pdf)>, Peng et al, 2018. 
   * Propose **DeepMimic**.
 
 * <[Hierarchical Imitation and Reinforcement Learning](https://arxiv.org/abs/1803.00590)> by Hoang M. Le, Nan Jiang, Alekh Agarwal, Miroslav Dudík, Yisong Yue and Hal Daumé III, 2018.
@@ -63,22 +80,36 @@ Behavior Cloning (BC) directly replicating the expert’s behavior with supervis
 
 * <[Zero-shot Imitation Learning from Demonstrations for Legged Robot Visual Navigation](https://arxiv.org/abs/1909.12971)> by Xinlei Pan, Tingnan Zhang, Brian Ichter, Aleksandra Faust, Jie Tan and Sehoon Ha, 2019.
 
-* <[Zero-Shot Visual Imitation](https://arxiv.org/abs/1804.08606)>, Deepak Pathak, Parsa Mahmoudieh, Guanghao Luo, Pulkit Agrawal, Dian Chen, Yide Shentu, Evan Shelhamer, Jitendra Malik, Alexei A. Efros and Trevor Darrell, ICLR 2018.
+* <[Zero-Shot Visual Imitation](https://arxiv.org/abs/1804.08606)>, by Deepak Pathak, Parsa Mahmoudieh, Guanghao Luo, Pulkit Agrawal, Dian Chen, Yide Shentu, Evan Shelhamer, Jitendra Malik, Alexei A. Efros and Trevor Darrell, ICLR 2018.
 
-  * <[One-Shot Hierarchical Imitation Learning of Compound Visuomotor Tasks](https://arxiv.org/pdf/1810.11043.pdf)>, Tianhe Yu, Pieter Abbeel, Sergey Levine, Chelsea Finn et al., 2018.
+* <[One-Shot Hierarchical Imitation Learning of Compound Visuomotor Tasks](https://arxiv.org/pdf/1810.11043.pdf)>, by Tianhe Yu, Pieter Abbeel, Sergey Levine, Chelsea Finn et al., 2018.
 
-  * <[One-Shot Imitation Learning](https://arxiv.org/abs/1703.07326)>, Yan Duan, Marcin Andrychowicz, Bradly C. Stadie, Jonathan Ho, Jonas Schneider, Ilya Sutskever, Pieter Abbeel and Wojciech Zaremba, NIPS 2017.
+* <[One-Shot Imitation Learning](https://arxiv.org/abs/1703.07326)>, by Yan Duan, Marcin Andrychowicz, Bradly C. Stadie, Jonathan Ho, Jonas Schneider, Ilya Sutskever, Pieter Abbeel and Wojciech Zaremba, NIPS 2017.
 
-### On-policy Imitation Learning
+### Model based
 
-* <[On-Policy Robot Imitation Learning from a Converging Supervisor](https://arxiv.org/abs/1907.03423)>, Ashwin Balakrishna, Brijen Thananjeyan, Jonathan Lee, Felix Li, Arsh Zahed, Joseph E. Gonzalez and Ken Goldberg, CoRL 2019.
-  * This paper consider "converging supervisor" in imitation learning as a dynamic DAgger methods.
+* <[Safe end-to-end imitation learning for model predictive control](https://arxiv.org/abs/1803.10231)>, by Keuntaek Lee, Kamil Saigol and Evangelos A. Theodorou, ICRA 2019
+  
+* <[Deep Imitative Models for Flexible Inference, Planning, and Control](https://arxiv.org/abs/1810.06544)>, by Nicholas Rhinehart, Rowan McAllister and Sergey Levine, 2018. [[blog]](https://sites.google.com/view/imitative-models)
 
-* [DAgger] <[A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning](https://arxiv.org/abs/1011.0686)> by Stephane Ross, Geoffrey J. Gordon, J. Andrew Bagnell, 2011.
+* <[Model-based imitation learning from state trajectories](https://openreview.net/forum?id=S1GDXzb0b&noteId=S1GDXzb0b)>, by S. Chaudhury et al., 2018.
 
-* [PoicyAggregation-SMILe] <[Efficient reductions for imitation learning](http://www.jmlr.org/proceedings/papers/v9/ross10a/ross10a.pdf)> by S Ross, D Bagnell, 2010.
+### Hierarchical RL
 
-* [PoicyAggregation-SEARN] <[Search-based Structured Prediction](https://arxiv.org/abs/0907.0786)> by Hal Daumé III, John Langford, Daniel Marcu, 2009.
+* <[Hierarchical Imitation and Reinforcement Learning](https://arxiv.org/abs/1803.00590)>, by Hoang M. Le, Nan Jiang, Alekh Agarwal, Miroslav Dudík, Yisong Yue and Hal Daumé III, ICML 2018
+
+### Multi-modal Behabiors
+
+* <[Watch, Try, Learn: Meta-Learning from Demonstrations and Reward. Imitation learning](https://arxiv.org/pdf/1906.03352)>, by Allan Zhou, Eric Jang, Daniel Kappler, Alex Herzog, Mohi Khansari, Paul Wohlhart, Yunfei Bai, Mrinal Kalakrishnan, Sergey Levine and Chelsea Finn, 2019.
+
+* <[Learning a Multi-Modal Policy via Imitating Demonstrations with Mixed Behaviors](https://arxiv.org/pdf/1903.10304)>, by Fang-I Hsiao, Jui-Hsuan Kuo, Min Sun, NIPS 2018 Workshop.
+
+* <[Shared Multi-Task Imitation Learning for Indoor Self-Navigation](https://arxiv.org/abs/1808.04503)>, by Junhong Xu, Qiwei Liu, Hanqing Guo, Aaron Kageza, Saeed AlQarni and Shaoen Wu, 2018
+
+### Learning with human preference
+* <[A Low-Cost Ethics Shaping Approach for Designing Reinforcement Learning Agents](https://arxiv.org/abs/1712.04172)>, by Yueh-Hua Wu, Shou-De Lin, AAAI 2018
+
+* <[Deep Reinforcement Learning from Human Preferences](https://arxiv.org/abs/1706.03741)>, by Paul Christiano, Jan Leike, Tom B. Brown, Miljan Martic, Shane Legg and Dario Amodei, NIPS 2017.
 
 ## Inverse-RL
 
@@ -100,7 +131,7 @@ Inverse Rinforcement Learning (IRL) learns hidden objectives of the expert’s b
 
 ### Papers
 
-* <[Variational Discriminator Bottleneck: Improving Imitation Learning, Inverse RL, and GANs by Constraining Information Flow](https://arxiv.org/abs/1810.00821)>, Peng et al, 2018.
+* <[Variational Discriminator Bottleneck: Improving Imitation Learning, Inverse RL, and GANs by Constraining Information Flow](https://arxiv.org/abs/1810.00821)>, by Xue Bin Peng, Angjoo Kanazawa, Sam Toyer, Pieter Abbeel and Sergey Levine, 2018.
   * Propose **VAIL**.
 
 * <[Learning to Optimize via Wasserstein Deep Inverse Optimal Control
@@ -111,7 +142,8 @@ Inverse Rinforcement Learning (IRL) learns hidden objectives of the expert’s b
 * <[A Connection Between Generative Adversarial Networks, Inverse Reinforcement Learning, and Energy-Based Models
 ](https://arxiv.org/abs/1611.03852)> by Chelsea Finn, Paul Christiano, Pieter Abbeel, Sergey Levine, 2016.
 
-* <[Guided Cost Learning: Deep Inverse Optimal Control via Policy Optimization](https://arxiv.org/abs/1603.00448)>, Finn et al, 2016. **Algorithm: GCL.**
+* [GCL] <[Guided Cost Learning: Deep Inverse Optimal Control via Policy Optimization](https://arxiv.org/abs/1603.00448)>, by Chelsea Finn, Sergey Levine, Pieter Abbeel, 2016. 
+  * Propose **GCL.**
 
 * <[Infinite Time Horizon Maximum Causal Entropy Inverse Reinforcement Learning
  ](https://ieeexplore.ieee.org/document/7040156)> by Michael Bloem and Nicholas Bambos, 2014.
@@ -148,40 +180,53 @@ Generative Adversarial Imitation Learning (GAIL) apply generative adversarial tr
 
 * <[Adversarial Imitation Learning from Incomplete Demonstrations](https://arXiv.org/abs/1905.12310)> by Mingfei Sun and Xiaojuan Ma, 2019.
 
+* [WGAN-GAIL] <[Wasserstein Adversarial Imitation Learning](https://arxiv.org/abs/1906.08113)>, by Huang Xiao, Michael Herman, Joerg Wagner, Sebastian Ziesche, Jalal Etesami and Thai Hong Linh, 2019
+
 * <[Self-Improving Generative Adversarial Reinforcement Learning
  ](https://dl.acm.org/citation.cfm?id=3331673)> by Yang Liu, Yifeng Zeng, Yingke Chen, Jing Tang, Yinghui Pan, 2019.
 
 * [GMMIL] <[Imitation Learning via Kernel Mean Embedding](https://www-users.cs.umn.edu/~hspark/mmd.pdf)> by Kee-Eung Kim, Hyun Soo Park, AAAI 2018.
  
-* <[Discriminator-Actor-Critic: Addressing Sample Inefficiency and Reward Bias in Adversarial Imitation Learning
+* [Off-Policy GAIL] <[Discriminator-Actor-Critic: Addressing Sample Inefficiency and Reward Bias in Adversarial Imitation Learning
 ](https://arxiv.org/abs/1809.02925)> by Ilya Kostrikov, Kumar Krishna Agrawal, Debidatta Dwibedi, Sergey Levine, Jonathan Tompson, 2018.
 
-* [HRL] <[Directed-Info GAIL: Learning Hierarchical Policies from Unsegmented Demonstrations using Directed Information
-](https://arxiv.org/abs/1810.01266)> by Ziyu Wang, Josh Merel, Scott Reed, Greg Wayne, Nando de Freitas, Nicolas Heess, 2018.
-
-* <[Robust Imitation of Diverse Behaviors
-](https://arxiv.org/abs/1707.02747)> by Arjun Sharma, Mohit Sharma, Nicholas Rhinehart, Kris M. Kitani, 2017.
-
-* <[End-to-End Differentiable Adversarial Imitation Learning
- ](http://proceedings.mlr.press/v70/baram17a.html)> by Nir Baram, Oron Anschel, Itai Caspi, Shie Mannor, 2017.
-
-* [InfoGAIL] <[InfoGAIL: Interpretable Imitation Learning from Visual Demonstrations](http://papers.nips.cc/paper/6971-infogail-interpretable-imitation-learning-from-visual-demonstrations)> by Yunzhu Li, Jiaming Song and Stefano Ermon, 2017.
-  * Propose **InfoGAIL**, learn interpretable (diverse) policies with mutual information technique (See InfoGAN).
+* [RAIL] <[RAIL: Risk-Averse Imitation Learning](https://arxiv.org/abs/1707.06658)>, by Anirban Santara, Abhishek Naik, Balaraman Ravindran, Dipankar Das, Dheevatsa Mudigere, Sasikanth Avancha, Bharat Kaul, NIPS 2017.
 
 * [GAIL] <[Generative Adversarial Imitation Learning](http://papers.nips.cc/paper/6391-generative-adversarial-imitation-learning)> by Jonathan Ho and Stefano Ermon, 2016.
   * Propose **GAIL**, minimize the JS divergence of policy and expert policy with GAN's technique.
+  
+### Multi-modal Behaviors
 
-### Task Transfer
+* <[Learning Plannable Representations with Causal InfoGAN](http://papers.nips.cc/paper/8090-learning-plannable-representations-with-causal-infogan.pdf)>, by Thanard Kurutach, Aviv Tamar, Ge Yang, Stuart Russelland Pieter Abbeel, NeurIPS 2018.
+
+* [InfoGAIL] <[InfoGAIL: Interpretable Imitation Learning from Visual Demonstrations](http://papers.nips.cc/paper/6971-infogail-interpretable-imitation-learning-from-visual-demonstrations)> by Yunzhu Li, Jiaming Song and Stefano Ermon, 2017.
+  * Propose **InfoGAIL**, learn interpretable (diverse) policies with mutual information technique (See InfoGAN).
+  
+* <[Multi-Modal Imitation Learning from Unstructured Demonstrations using Generative Adversarial Nets](hhttps://arxiv.org/abs/1705.10479)>, by Karol Hausman, Yevgen Chebotar, Stefan Schaal, Gaurav Sukhatme, Joseph Lim., NIPS 2017.
+
+* <[Robust Imitation of Diverse Behaviors
+](https://arxiv.org/abs/1707.02747)> by Arjun Sharma, Mohit Sharma, Nicholas Rhinehart, Kris M. Kitani, NIPS 2017.
+  
+### Hierarchical-RL
+
+* <[Directed-Info GAIL: Learning Hierarchical Policies from Unsegmented Demonstrations using Directed Information](https://arxiv.org/abs/1810.01266)> by Arjun Sharma, Mohit Sharma, Nicholas Rhinehart, Kris M. Kitani, ICLR 2019.
+
+* [OptionGAN: Learning Joint Reward-Policy Options using Generative Adversarial Inverse Reinforcement Learning](https://arxiv.org/pdf/1709.06683.pdf), by Peter Henderson, Wei-Di Chang, Pierre-Luc Bacon, David Meger, Joelle Pineau and Doina Precup, AAAI 2018.
+
+### Task-Transfer
 
 * <[Cross Domain Imitation Learning](https://arxiv.org/abs/1910.00105)> by Kun Ho Kim, Yihong Gu, Jiaming Song, Shengjia Zhao, Stefano Ermon, 2019.
 
-* [TRAIL]<[Task-Relevant Adversarial Imitation Learning](https://arxiv.org/abs/1910.01077)>, by Konrad Zolna, Scott Reed, Alexander Novikov, Sergio Gomez Colmenarej, David Budden, Serkan Cabi, Misha Denil, Nando de Freitas, Ziyu Wang, 2019.
+* [TRAIL] <[Task-Relevant Adversarial Imitation Learning](https://arxiv.org/abs/1910.01077)>, by Konrad Zolna, Scott Reed, Alexander Novikov, Sergio Gomez Colmenarej, David Budden, Serkan Cabi, Misha Denil, Nando de Freitas, Ziyu Wang, 2019.
 
 ### Model-based
 
 * <[Model Imitation for Model-Based Reinforcement Learning](https://arxiv.org/pdf/1909.11821.pdf)> by Yueh-Hua Wu, Ting-Han Fan, Peter J. Ramadge, Hao Su, 2019.
 
-* [Planing, Dyna-AIL] <[Dyna-AIL : Adversarial Imitation Learning by Planning](https://arxiv.org/abs/1903.03234)>, by Vaibhav Saxena, Srinivasan Sivanandan, Pulkit Mathur, 2019
+* [Planning, Dyna-AIL] <[Dyna-AIL : Adversarial Imitation Learning by Planning](https://arxiv.org/abs/1903.03234)>, by Vaibhav Saxena, Srinivasan Sivanandan, Pulkit Mathur, 2019.
+
+* <[End-to-End Differentiable Adversarial Imitation Learning
+ ](http://proceedings.mlr.press/v70/baram17a.html)> by Nir Baram, Oron Anschel, Itai Caspi, Shie Mannor, 2017.
 
 ### POMDP
 
@@ -189,36 +234,31 @@ Generative Adversarial Imitation Learning (GAIL) apply generative adversarial tr
 
 ### Goal-based
 
-* [GoalGAIL]<[Goal-conditioned Imitation Learning]> Yiming Ding, Carlos Florensa, Mariano Phielipp and Pieter Abbeel, ICML 2019.
+* [GoalGAIL] <[Goal-conditioned Imitation Learning](https://arxiv.org/abs/1906.05838)> by Yiming Ding, Carlos Florensa, Mariano Phielipp and Pieter Abbeel, ICML 2019.
   
-## Support-Estimation
+## Support-Estimation-Methods
 
 Recently, there is a paper designs a new idea for imitation learning, which learns a fixed reward signal which obviates the need for dynamic update of reward functions.
 
 * <[Random Expert Distillation: Imitation Learning via Expert Policy Support Estimation](https://arxiv.org/pdf/1905.06750)> by Ruohan Wang, Carlo Ciliberto, Pierluigi Amadori, Yiannis Demirisn, 2019.
   * Propose **RED**, use RND for IL.
   
-## Other-Tasks
+## Other-Methods
 
-### Imitation with rewards
+* <[Deep Q-learning from Demonstrations](https://arxiv.org/abs/1704.03732)>, by Todd Hester, Matej Vecerik, Olivier Pietquin, Marc Lanctot, Tom Schaul, Bilal Piot, Dan Horgan, John Quan, Andrew Sendonaris, Gabriel Dulac-Arnold, Ian Osband, John Agapiou, Joel Z. Leibo, Audrunas Gruslys, AAAI 2018.
 
-* <[Relay Policy Learning: Solving Long-Horizon Tasks via Imitation and Reinforcement Learning](https://arxiv.org/abs/1910.11956)>, by Abhishek Gupta, Vikash Kumar, Corey Lynch, Sergey Levine and Karol Hausman, CoRL 2019
+* [UPN] <[Universal Planning Networks](https://arxiv.org/abs/1804.00645)>, by Aravind Srinivas, Allan Jabri, Pieter Abbeel, Sergey Levine, Chelsea Finn, 2018.
 
-* <[Integration of Imitation Learning using GAIL and Reinforcement Learning using Task-achievement Rewards via Probabilistic Generative Model](https://arxiv.org/pdf/1907.02140.pdf)>, Akira Kinose and Tadahiro Taniguchi, 2019.
+* <[Learning to Search via Retrospective Imitation](https://arxiv.org/abs/1804.00846)>, Jialin Song, Ravi Lanka, Albert Zhao, Aadyot Bhatnagar, Yisong Yue, Masahiro Ono, 2018.
+    * This paper is for combinatorial problems.
 
-* <[Reinforced Imitation in Heterogeneous Action Space](https://arxiv.org/pdf/1904.03438)>, by Konrad Zolna, Negar Rostamzadeh, Yoshua Bengio, Sungjin Ahn and Pedro O. Pinheiro, 2019.
-
-* <[Policy Optimization with Demonstrations](http://proceedings.mlr.press/v80/kang18a.html)>, by Bingyi Kang, Zequn Jie and Jiashi Feng, ICML 2018.
-
-* <[Reinforcement Learning from Imperfect Demonstrations](https://arxiv.org/pdf/1802.05313.pdf)>, by Yang Gao, Huazhe Xu, Ji Lin, Fisher Yu, Sergey Levine and Trevor Darrell, ICML Workshop 2018
-
-* <[Pre-training with Non-expert Human Demonstration for Deep Reinforcement Learning](https://arxiv.org/pdf/1812.08904)>, by Gabriel V. de la Cruz, Yunshu Du and Matthew E. Taylor, 2018.
-
-* <[Sparse Reward Based Manipulator Motion Planning by Using High Speed Learning from Demonstrations](https://ieeexplore.ieee.org/abstract/document/8665328)>, by Guoyu Zuo, Jiahao Lu and Tingting Pan, ROBIO 2018.
+* <[Third-Person Imitation Learning](https://arxiv.org/abs/1703.01703)>, by Bradly C. Stadie, Pieter Abbeel and Ilya Sutskever, ICLR 2017
 
 # Multi-Agent
 
 * <[PRECOG: PREdiction Conditioned On Goals in Visual Multi-Agent Settings](https://arxiv.org/abs/1905.01296)> by Nicholas Rhinehart, Rowan McAllister, Kris Kitani and Sergey Levine, ICCV 2019. [[blog]](https://sites.google.com/view/precog)
+
+* <[Imitation Learning of Factored Multi-agent Reactive Models](https://arxiv.org/abs/1903.04714) by Michael Teng, Tuan Anh Le, Adam Scibior, Frank Wood, 2019.
 
 * <[Coordinated multi-agent imitation learning](https://dl.acm.org/citation.cfm?id=3305587)> by Dylan Hadfield-Menell, Stuart J. Russell, Pieter Abbeel and Anca Dragan, NIPS 2016.
 
@@ -240,7 +280,60 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
 
 * <[Multi-Agent Generative Adversarial Imitation Learning](https://papers.nips.cc/paper/7975-multi-agent-generative-adversarial-imitation-learning)> by Jiaming Song, Hongyu Ren, Dorsa Sadigh, Stefano Ermon. NeurIPS 2018.
 
-## Applications
+# Other-Settings
+
+## Imitation Learning from Observations
+
+### Review Papers
+
+* [Recent Advances in Imitation Learning from Observation](https://arxiv.org/pdf/1905.13566.pdf), Faraz Torabi, Garrett Warnell, Peter Stone, IJCAI 2019.
+
+### Regular Papers
+
+* [Provably Efficient Imitation Learning from Observation Alone](http://proceedings.mlr.press/v97/sun19b.html), Wen Sun, Anirudh Vemula, Byron Boots and Drew Bagnell, ICML 2019.
+
+* <[To Follow or not to Follow: Selective Imitation Learning from Observations](https://arxiv.org/abs/1707.03374)>, YuXuan Liu, Abhishek Gupta, Pieter Abbeel and Sergey Levine, CoRL 2019.
+
+* <[Adversarial Imitation Learning from State-only Demonstrations](https://dl.acm.org/citation.cfm?id=3332067)>,	Faraz Torabi, Garrett Warnell and Peter Stone, AAMAS 2019.
+
+* <[Behavioral Cloning from Observation](https://arxiv.org/abs/1805.01954)>, Faraz Torabi, Garrett Warnell and Peter Stone, IJCAI 2018.
+
+* <[Imitation from Observation: Learning to Imitate Behaviors from Raw Video via Context Translation](https://arxiv.org/abs/1707.03374)>, YuXuan Liu, Abhishek Gupta, Pieter Abbeel and Sergey Levine, 2017.
+
+* <[Observational Learning by Reinforcement Learning](https://arxiv.org/abs/1706.06617)>, Diana Borsa, Bilal Piot, Rémi Munos and Olivier Pietquin, 2017.
+
+## Imitation Learning with rewards
+
+* <[Relay Policy Learning: Solving Long-Horizon Tasks via Imitation and Reinforcement Learning](https://arxiv.org/abs/1910.11956)>, by Abhishek Gupta, Vikash Kumar, Corey Lynch, Sergey Levine and Karol Hausman, CoRL 2019
+
+* <[Integration of Imitation Learning using GAIL and Reinforcement Learning using Task-achievement Rewards via Probabilistic Generative Model](https://arxiv.org/pdf/1907.02140.pdf)>, Akira Kinose and Tadahiro Taniguchi, 2019.
+
+* <[Reinforced Imitation in Heterogeneous Action Space](https://arxiv.org/pdf/1904.03438)>, by Konrad Zolna, Negar Rostamzadeh, Yoshua Bengio, Sungjin Ahn and Pedro O. Pinheiro, 2019.
+
+* <[Policy Optimization with Demonstrations](http://proceedings.mlr.press/v80/kang18a.html)>, by Bingyi Kang, Zequn Jie and Jiashi Feng, ICML 2018.
+
+* <[Reinforcement Learning from Imperfect Demonstrations](https://arxiv.org/pdf/1802.05313.pdf)>, by Yang Gao, Huazhe Xu, Ji Lin, Fisher Yu, Sergey Levine and Trevor Darrell, ICML Workshop 2018
+
+* <[Pre-training with Non-expert Human Demonstration for Deep Reinforcement Learning](https://arxiv.org/pdf/1812.08904)>, by Gabriel V. de la Cruz, Yunshu Du and Matthew E. Taylor, 2018.
+
+* <[Sparse Reward Based Manipulator Motion Planning by Using High Speed Learning from Demonstrations](https://ieeexplore.ieee.org/abstract/document/8665328)>, by Guoyu Zuo, Jiahao Lu and Tingting Pan, ROBIO 2018.
+
+## On-policy Imitation Learning
+
+* <[On-Policy Robot Imitation Learning from a Converging Supervisor](https://arxiv.org/abs/1907.03423)>, Ashwin Balakrishna, Brijen Thananjeyan, Jonathan Lee, Felix Li, Arsh Zahed, Joseph E. Gonzalez and Ken Goldberg, CoRL 2019.
+  * This paper consider "converging supervisor" in imitation learning as a dynamic DAgger methods.
+
+* [DAgger] <[A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning](https://arxiv.org/abs/1011.0686)> by Stephane Ross, Geoffrey J. Gordon, J. Andrew Bagnell, 2011.
+
+* [PoicyAggregation-SMILe] <[Efficient reductions for imitation learning](http://www.jmlr.org/proceedings/papers/v9/ross10a/ross10a.pdf)> by S Ross, D Bagnell, 2010.
+
+* [PoicyAggregation-SEARN] <[Search-based Structured Prediction](https://arxiv.org/abs/0907.0786)> by Hal Daumé III, John Langford, Daniel Marcu, 2009.
+
+## Batch-RL
+
+see a particular list in [here](https://github.com/apexrl/Batch-RL-Paper-Lists).
+
+# Applications
 
 * <[Better-than-Demonstrator Imitation Learning via Automatically-Ranked Demonstrations](https://arxiv.org/pdf/1907.03976.pdf)>, by Daniel S. Brown, Wonjoon Goo, Scott Niekum, CoRL 2019.
 
@@ -256,7 +349,7 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
 
 * <[End-to-end Driving via Conditional Imitation Learning](https://arxiv.org/abs/1710.02410)>, by Felipe Codevilla, Matthias Müller, Antonio López, Vladlen Koltun, Alexey Dosovitskiy, ICRA 2018.
 
-* <[End-to-End Learning Driver Policy using Moments Deep Neural Network](https://ieeexplore.ieee.org/abstract/document/8664869)>, Qian Deheng, Ren Dongchun, Meng Yingying, Zhu Yanliang, Ding Shuguang, Fu Sheng, Wang Zhichao and Xia Huaxia, ROBIO 2018.
+* <[End-to-End Learning Driver Policy using Moments Deep Neural Network](https://ieeexplore.ieee.org/abstract/document/8664869)>, by Qian Deheng, Ren Dongchun, Meng Yingying, Zhu Yanliang, Ding Shuguang, Fu Sheng, Wang Zhichao and Xia Huaxia, ROBIO 2018.
 
 * <[R2P2: A ReparameteRized Pushforward Policy for Diverse, Precise Generative Path Forecasting](https://link.springer.com/chapter/10.1007/978-3-030-01261-8_47)>, by Qian Deheng, Ren Dongchun, Meng Yingying, Zhu Yanliang, Ding Shuguang, Fu Sheng, Wang Zhichao and Xia Huaxia, ECCV 2018. [[blog]](http://www.cs.cmu.edu/~nrhineha/R2P2.html) 
 
@@ -266,5 +359,5 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
   
 * <[Video Imitation GAN: Learning control policies by imitating raw videos using generative adversarial reward estimation](https://arxiv.org/pdf/1810.01108.pdf)>, by Subhajit Chaudhury, Daiki Kimura, Asim Munawar and Ryuki Tachibana, 2018.
 
-  * <[Query-Efficient Imitation Learning for End-to-End Autonomous Driving](https://arxiv.org/abs/1605.06450)>, by Jiakai Zhang and Kyunghyun Cho, 2016.
+* <[Query-Efficient Imitation Learning for End-to-End Autonomous Driving](https://arxiv.org/abs/1605.06450)>, by Jiakai Zhang and Kyunghyun Cho, 2016.
 
