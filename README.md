@@ -5,6 +5,8 @@ To be precise, the "imitation learning" is the general problem of learning from 
 
 Typically, methods collected in this collection do not assume to ask for an interactive expert for correctness and data aggregation, but when it is allowed, then lead to series of interactive direct policy learning methods, which is often analyzed via learning reductions. Since we do not expect for an interactive expert, we only list the original DAgger (Dataset Aggregation) paper and the original policy aggeration papers in [Behavior-Cloning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Behavior-Cloning), and we will concentrate on those who only learn from pre-collected demonstrations.
 
+These paper are classified mainly based on their methodology instead of their specific task settings (except single-agent/multi-agent settings).
+
 ## Overview
 * [Single-Agent](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Single-Agent)
   * [Reveiws&Tutorials](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Reveiws\&Tutorials)
@@ -15,6 +17,7 @@ Typically, methods collected in this collection do not assume to ask for an inte
   * 
 * [Multi-Agent](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Multi-Agent)
   * [MA-Inverse-RL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#MA-Inverse-RL)
+* [Applications](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Applications)
 
 ## Single-Agent
 
