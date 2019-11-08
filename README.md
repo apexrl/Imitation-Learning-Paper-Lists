@@ -27,6 +27,7 @@ These papers are classified mainly based on their methodology instead and their 
   * [Other-Methods](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Other-Methods)
 * [Multi-Agent](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Multi-Agent)
   * [MA-Inverse-RL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#MA-Inverse-RL)
+  * [MA-GAIL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#MA-GAIL)
 * [Other-Settings](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Other-Settings)
   * [Imitation Learning from Observations](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Imitation-Learning-from-Observations)
   * [Imitation Learning with Rewards](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists#Imitation-Learning-with-Rewards)
