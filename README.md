@@ -18,27 +18,27 @@ In this collection, we will concentrate on the general setting and we collect ot
 These papers are classified mainly based on their methodology instead and their specific task settings (except single-agent/multi-agent settings) but since there are many cross-domain papers, the classification is just for reference. As you can see, much works focus on Robotics, especially papers of UCB.
 
 # Overview
-* [Single-Agent](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#Single-Agent)
-  * [Reveiws&Tutorials](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#Reveiws\&Tutorials)
-  * [Behavior-Cloning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#Behavior-Cloning)
-    * One-shot / Zero-shot
-    * Model based
-    * Hierarchical RL
-    * Multi-modal Behabiors
-    * Learning with human preference
-  * [Inverse-RL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#Inverse-RL)
-  * [Generative-Adversarial-Methods](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#Generative-Adversarial-Methods)
-  * [Support-Estimation-Methods](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#Support-Estimation-Methods)
-  * [Other-Methods](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#Other-Methods)
-* [Multi-Agent](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#Multi-Agent)
-  * [MA-Inverse-RL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#MA-Inverse-RL)
-  * [MA-GAIL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#MA-GAIL)
-* [Other-Settings](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#Other-Settings)
-  * [Imitation Learning from Observations](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#Imitation-Learning-from-Observations)
-  * [Imitation Learning with Rewards](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#Imitation-Learning-with-Rewards)
-  * [On-policy Imitation Learning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#On-policy-Imitation-Learning)
-  * [Batch-RL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#Batch-RL)
-* [Applications](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#Applications)
+* [Single-Agent](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#single-agent)
+  * [Reveiws&Tutorials](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#reveiws\&tutorials)
+  * [Behavior Cloning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#behavior-cloning)
+    * [One-shot / Zero-shot](https://github.com/apexrl/Imitation-Learning-Paper-Lists/blob/master/README.md#one-shot--zero-shot)
+    * [Model based](https://github.com/apexrl/Imitation-Learning-Paper-Lists/blob/master/README.md#model-based)
+    * [Hierarchical RL](https://github.com/apexrl/Imitation-Learning-Paper-Lists/blob/master/README.md#hierarchical-rl)
+    * [Multi-modal Behabiors](https://github.com/apexrl/Imitation-Learning-Paper-Lists/blob/master/README.md#multi-modal-behabiors)
+    * [Learning with human preference](https://github.com/apexrl/Imitation-Learning-Paper-Lists/blob/master/README.md#learning-with-human-preference)
+  * [Inverse RL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#inverse-rL)
+  * [Generative Adversarial Methods](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#generative-adversarial-methods)
+  * [Support Estimation Methods](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#support-estimation-methods)
+  * [Other Methods](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#other-methods)
+* [Multi-Agent](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#multi-agent)
+  * [MA Inverse RL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#ma-inverse-rl)
+  * [MA-GAIL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#ma-gail)
+* [Other Settings](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#other-settings)
+  * [Imitation Learning from Observations](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#imitation-learning-from-observations)
+  * [Imitation Learning with Rewards](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#imitation-learning-with-rewards)
+  * [On-policy Imitation Learning](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#on-policy-imitation-learning)
+  * [Batch RL](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#batch-rl)
+* [Applications](https://github.com/Ericonaldo/Imitation-Learning-Paper-Lists/blob/master/README.md#applications)
 
 # Single-Agent
 
@@ -59,7 +59,7 @@ These papers are classified mainly based on their methodology instead and their 
 * <[A survey of robot learning from demonstration](https://www.sciencedirect.com/science/article/pii/S0921889008001772)> by 
 Brenna, D.Argall, SoniaChernova, ManuelaVeloso, BrettBrowning, 2009.
 
-## Behavior-Cloning
+## Behavior Cloning
 
 Behavior Cloning (BC) directly replicating the expert’s behavior with supervised learning, which can be improved via data aggregation. One can say that BC is the simplest case of interactive direct policy learning.
 
@@ -117,7 +117,7 @@ Behavior Cloning (BC) directly replicating the expert’s behavior with supervis
 
 * <[Deep Reinforcement Learning from Human Preferences](https://arxiv.org/abs/1706.03741)>, by Paul Christiano, Jan Leike, Tom B. Brown, Miljan Martic, Shane Legg and Dario Amodei, NIPS 2017.
 
-## Inverse-RL
+## Inverse RL
 
 Inverse Rinforcement Learning (IRL) learns hidden objectives of the expert’s behavior.
 
@@ -180,7 +180,7 @@ Brian D. Ziebart, Andrew Maas, J.Andrew Bagnell, and Anind K. Dey, 2008.
 
 * <[Algorithms for Inverse Reinforcement Learning](http://ai.stanford.edu/~ang/papers/icml00-irl.pdf)> by AY Ng, SJ Russell, 2000.
 
-## Generative-Adversarial-Methods
+## Generative Adversarial Methods
 
 Generative Adversarial Imitation Learning (GAIL) apply generative adversarial training manner into learning expert policies, which is derived from inverse RL.
 
@@ -213,13 +213,13 @@ Generative Adversarial Imitation Learning (GAIL) apply generative adversarial tr
 * <[Robust Imitation of Diverse Behaviors
 ](https://arxiv.org/abs/1707.02747)> by Arjun Sharma, Mohit Sharma, Nicholas Rhinehart, Kris M. Kitani, NIPS 2017.
   
-### Hierarchical-RL
+### Hierarchical RL
 
 * <[Directed-Info GAIL: Learning Hierarchical Policies from Unsegmented Demonstrations using Directed Information](https://arxiv.org/abs/1810.01266)> by Arjun Sharma, Mohit Sharma, Nicholas Rhinehart, Kris M. Kitani, ICLR 2019.
 
 * [OptionGAN: Learning Joint Reward-Policy Options using Generative Adversarial Inverse Reinforcement Learning](https://arxiv.org/pdf/1709.06683.pdf), by Peter Henderson, Wei-Di Chang, Pierre-Luc Bacon, David Meger, Joelle Pineau and Doina Precup, AAAI 2018.
 
-### Task-Transfer
+### Task Transfer
 
 * <[Cross Domain Imitation Learning](https://arxiv.org/abs/1910.00105)> by Kun Ho Kim, Yihong Gu, Jiaming Song, Shengjia Zhao, Stefano Ermon, 2019.
 
@@ -242,7 +242,7 @@ Generative Adversarial Imitation Learning (GAIL) apply generative adversarial tr
 
 * [GoalGAIL] <[Goal-conditioned Imitation Learning](https://arxiv.org/abs/1906.05838)> by Yiming Ding, Carlos Florensa, Mariano Phielipp and Pieter Abbeel, ICML 2019.
   
-## Support-Estimation-Methods
+## Support Estimation Methods
 
 Recently, there is a paper designs a new idea for imitation learning, which learns a fixed reward signal which obviates the need for dynamic update of reward functions.
 
@@ -251,7 +251,7 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
 * <[Random Expert Distillation: Imitation Learning via Expert Policy Support Estimation](https://arxiv.org/pdf/1905.06750)> by Ruohan Wang, Carlo Ciliberto, Pierluigi Amadori and Yiannis Demirisn, 2019.
   * Propose **RED**, use RND for IL.
   
-## Other-Methods
+## Other Methods
 
 * <[A Divergence Minimization Perspective on Imitation Learning Methods> by Seyed Kamyar Seyed Ghasemipour, Richard Zemel and Shixiang Gu, 2019.
 
@@ -272,7 +272,7 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
 
 * <[Coordinated multi-agent imitation learning](https://dl.acm.org/citation.cfm?id=3305587)> by Dylan Hadfield-Menell, Stuart J. Russell, Pieter Abbeel and Anca Dragan, NIPS 2016.
 
-## MA-Inverse-RL
+## MA Inverse RL
 
 * <[Cooperative Inverse Reinforcement Learning](http://papers.nips.cc/paper/6420-cooperative-inverse-reinforcement-learning)> by 	Hoang M. Le, Yisong Yue, Peter Carr, Patrick Lucey,	ICML 2017.
 
@@ -290,7 +290,7 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
 
 * <[Multi-Agent Generative Adversarial Imitation Learning](https://papers.nips.cc/paper/7975-multi-agent-generative-adversarial-imitation-learning)> by Jiaming Song, Hongyu Ren, Dorsa Sadigh, Stefano Ermon. NeurIPS 2018.
 
-# Other-Settings
+# Other Settings
 
 ## Imitation Learning from Observations
 
@@ -339,7 +339,7 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
 
 * [PoicyAggregation-SEARN] <[Search-based Structured Prediction](https://arxiv.org/abs/0907.0786)> by Hal Daumé III, John Langford, Daniel Marcu, 2009.
 
-## Batch-RL
+## Batch RL
 
 see a particular list in [here](https://github.com/apexrl/Batch-RL-Paper-Lists).
 
