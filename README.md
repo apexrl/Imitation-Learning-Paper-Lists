@@ -36,7 +36,7 @@ These papers are classified mainly based on their methodology instead and their 
     * [Model based](https://github.com/apexrl/Imitation-Learning-Paper-Lists#model-based-1)
     * [POMDP](https://github.com/apexrl/Imitation-Learning-Paper-Lists#pomdp)
     * [Goal-based](https://github.com/apexrl/Imitation-Learning-Paper-Lists#goal-based)
-  * [Support Estimation Methods](https://github.com/v/Imitation-Learning-Paper-Lists#support-estimation-methods)
+  * [Support Estimation Methods](https://github.com/apexrl/Imitation-Learning-Paper-Lists#support-estimation-methods)
   * [Other Methods](https://github.com/apexrl/Imitation-Learning-Paper-Lists#other-methods)
 * [Multi-Agent](https://github.com/apexrl/Imitation-Learning-Paper-Lists#multi-agent)
   * [MA Inverse RL](https://github.com/apexrl/Imitation-Learning-Paper-Lists#ma-inverse-rl)
