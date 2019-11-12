@@ -261,7 +261,7 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
   
 ## Other Methods
 
-* [SQIL] <[SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards(https://arxiv.org/abs/1905.11108)]> by Siddharth Reddy, Anca D. Dragan, Sergey Levine. 2019.
+* [SQIL] <[SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards](https://arxiv.org/abs/1905.11108)> by Siddharth Reddy, Anca D. Dragan, Sergey Levine. 2019.
 
 * <[A Divergence Minimization Perspective on Imitation Learning Methods](http://arxiv.org/abs/1911.02256)> by Seyed Kamyar Seyed Ghasemipour, Richard Zemel and Shixiang Gu, 2019.
 
