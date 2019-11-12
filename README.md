@@ -35,8 +35,8 @@ These papers are classified mainly based on their methodology instead and their 
     * [Task Transfer](https://github.com/apexrl/Imitation-Learning-Paper-Lists#task-transfer)
     * [Model based](https://github.com/apexrl/Imitation-Learning-Paper-Lists#model-based-1)
     * [POMDP](https://github.com/apexrl/Imitation-Learning-Paper-Lists#pomdp)
-    * [Goal-based](https://github.com/apexrl/Imitation-Learning-Paper-Lists#goal-based)
   * [Support Estimation Methods](https://github.com/apexrl/Imitation-Learning-Paper-Lists#support-estimation-methods)
+  * [Goal-based methods](https://github.com/apexrl/Imitation-Learning-Paper-Lists#goal-based-methods)
   * [Other Methods](https://github.com/apexrl/Imitation-Learning-Paper-Lists#other-methods)
 * [Multi-Agent](https://github.com/apexrl/Imitation-Learning-Paper-Lists#multi-agent)
   * [MA Inverse RL](https://github.com/apexrl/Imitation-Learning-Paper-Lists#ma-inverse-rl)
@@ -245,10 +245,6 @@ Generative Adversarial Imitation Learning (GAIL) apply generative adversarial tr
 ### POMDP
 
 * <[Learning Belief Representations for Imitation Learning in POMDPs](https://arxiv.org/abs/1906.09510)> by Tanmay Gangwani, Joel Lehman, Qiang Liu, Jian Peng, 2019.
-
-### Goal-based
-
-* [GoalGAIL] <[Goal-conditioned Imitation Learning](https://arxiv.org/abs/1906.05838)> by Yiming Ding, Carlos Florensa, Mariano Phielipp and Pieter Abbeel, ICML 2019.
   
 ## Support Estimation Methods
 
@@ -259,9 +255,13 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
 * <[Random Expert Distillation: Imitation Learning via Expert Policy Support Estimation](https://arxiv.org/pdf/1905.06750)> by Ruohan Wang, Carlo Ciliberto, Pierluigi Amadori and Yiannis Demirisn, 2019.
   * Propose **RED**, use RND for IL.
   
-## Other Methods
+## Goal-based methods
 
 * [SQIL] <[SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards](https://arxiv.org/abs/1905.11108)> by Siddharth Reddy, Anca D. Dragan, Sergey Levine. 2019.
+
+* [GoalGAIL] <[Goal-conditioned Imitation Learning](https://arxiv.org/abs/1906.05838)> by Yiming Ding, Carlos Florensa, Mariano Phielipp and Pieter Abbeel, ICML 2019.
+  
+## Other Methods
 
 * <[A Divergence Minimization Perspective on Imitation Learning Methods](http://arxiv.org/abs/1911.02256)> by Seyed Kamyar Seyed Ghasemipour, Richard Zemel and Shixiang Gu, 2019.
 
