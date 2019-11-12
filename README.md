@@ -260,6 +260,8 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
 * [SQIL] <[SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards](https://arxiv.org/abs/1905.11108)> by Siddharth Reddy, Anca D. Dragan, Sergey Levine. 2019.
 
 * [GoalGAIL] <[Goal-conditioned Imitation Learning](https://arxiv.org/abs/1906.05838)> by Yiming Ding, Carlos Florensa, Mariano Phielipp and Pieter Abbeel, ICML 2019.
+
+* <[Overcoming Exploration in Reinforcement Learning with Demonstrations](https://arxiv.org/abs/1906.05838)> by Ashvin Nair, Bob McGrew, Marcin Andrychowicz, Wojciech Zaremba, Pieter Abbeel, ICRA 2018.
   
 ## Other Methods
 
