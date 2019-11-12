@@ -263,7 +263,7 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
 
 * [SQIL] <[SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards(https://arxiv.org/abs/1905.11108)]> by Siddharth Reddy, Anca D. Dragan, Sergey Levine. 2019.
 
-* <[A Divergence Minimization Perspective on Imitation Learning Methods(http://arxiv.org/abs/1911.02256)> by Seyed Kamyar Seyed Ghasemipour, Richard Zemel and Shixiang Gu, 2019.
+* <[A Divergence Minimization Perspective on Imitation Learning Methods](http://arxiv.org/abs/1911.02256)> by Seyed Kamyar Seyed Ghasemipour, Richard Zemel and Shixiang Gu, 2019.
 
 * <[Deep Q-learning from Demonstrations](https://arxiv.org/abs/1704.03732)>, by Todd Hester, Matej Vecerik, Olivier Pietquin, Marc Lanctot, Tom Schaul, Bilal Piot, Dan Horgan, John Quan, Andrew Sendonaris, Gabriel Dulac-Arnold, Ian Osband, John Agapiou, Joel Z. Leibo, Audrunas Gruslys, AAAI 2018.
 
