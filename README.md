@@ -7,11 +7,23 @@ Typically, different settings of imitation learning derive to different specific
 
 1. No actions and only state / observations -> Imitation Learning From Observations (ILFO).
 
-2. With reward signals -> Imitation Learning with Rewards.
+2. With reward signals -> Imitation Learning with Rewards. 
 
 3. Interactive expert for correctness and data aggregation -> On-policy Imitation Learning (begin as Dagger, Dataset Aggregation).
 
 4. Can not interact with Environments -> Batch RL (see a particular list in [here](https://github.com/apexrl/Batch-RL-Paper-Lists).)
+
+What we want from imitation learning in different settings (for real world):
+
+0. Less interact with the **real world** environments with expert demonstrations to improve sample efficiency and learn good policies. (yet some works use few demonstrations to learn good policies but with a vast cost on interacting with environments)
+
+1. Real world actions are not available or hard to sample.
+
+2. Use expert data to improve sample efficiency and learn fast with good exploration ability.
+
+3. Some online setting that human are easily to join in, e.g., human correct the steering wheel in auto-driving cars.
+
+4. Learn good policies in real world where interact with the environment is difficult.
 
 In this collection, we will concentrate on the general setting and we collect other settings in "[Other Settings](https://github.com/apexrl/Imitation-Learning-Paper-Lists/blob/master/README.md#other-settings)" section. For other settings, such as "Self-imitation learning" which imitate the policy from one's own historical data, we do not regard it as an imitation learning task.
 
