@@ -36,13 +36,13 @@ These papers are classified mainly based on their methodology instead and their 
     * [One-shot / Zero-shot](https://github.com/apexrl/Imitation-Learning-Paper-Lists#one-shot--zero-shot)
     * [Model based](https://github.com/apexrl/Imitation-Learning-Paper-Lists#model-based)
     * [Hierarchical RL](https://github.com/apexrl/Imitation-Learning-Paper-Lists#hierarchical-rl)
-    * [Multi-modal Behabiors](https://github.com/apexrl/Imitation-Learning-Paper-Lists#multi-modal-behabiors)
+    * [Multi-modal Behaviors](https://github.com/apexrl/Imitation-Learning-Paper-Lists#multi-modal-behaviors)
     * [Learning with human preference](https://github.com/apexrl/Imitation-Learning-Paper-Lists#learning-with-human-preference)
   * [Inverse RL](https://github.com/apexrl/Imitation-Learning-Paper-Lists#inverse-rl)
     * [Reveiws&Tutorials](https://github.com/apexrl/Imitation-Learning-Paper-Lists#reveiwstutorials-1)
     * [Papers](https://github.com/apexrl/Imitation-Learning-Paper-Lists#papers)
   * [Generative Adversarial Methods](https://github.com/apexrl/Imitation-Learning-Paper-Lists#generative-adversarial-methods)
-    * [Multi-modal Behabiors](https://github.com/apexrl/Imitation-Learning-Paper-Lists#multi-modal-behabiors-1)
+    * [Multi-modal Behaviors](https://github.com/apexrl/Imitation-Learning-Paper-Lists#multi-modal-behaviors-1)
     * [Hierarchical RL](https://github.com/apexrl/Imitation-Learning-Paper-Lists#hierarchical-rl-1)  
     * [Task Transfer](https://github.com/apexrl/Imitation-Learning-Paper-Lists#task-transfer)
     * [Model based](https://github.com/apexrl/Imitation-Learning-Paper-Lists#model-based-1)
@@ -124,7 +124,7 @@ Behavior Cloning (BC) directly replicating the expert’s behavior with supervis
 
 * <[Hierarchical Imitation and Reinforcement Learning](https://arxiv.org/abs/1803.00590)>, by Hoang M. Le, Nan Jiang, Alekh Agarwal, Miroslav Dudík, Yisong Yue and Hal Daumé III, ICML 2018
 
-### Multi-modal Behabiors
+### Multi-modal Behaviors
 
 * <[Watch, Try, Learn: Meta-Learning from Demonstrations and Reward. Imitation learning](https://arxiv.org/pdf/1906.03352)>, by Allan Zhou, Eric Jang, Daniel Kappler, Alex Herzog, Mohi Khansari, Paul Wohlhart, Yunfei Bai, Mrinal Kalakrishnan, Sergey Levine and Chelsea Finn, 2019.
 
