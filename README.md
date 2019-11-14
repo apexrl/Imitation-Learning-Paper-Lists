@@ -228,7 +228,7 @@ Generative Adversarial Imitation Learning (GAIL) apply generative adversarial tr
 * [InfoGAIL] <[InfoGAIL: Interpretable Imitation Learning from Visual Demonstrations](http://papers.nips.cc/paper/6971-infogail-interpretable-imitation-learning-from-visual-demonstrations)> by Yunzhu Li, Jiaming Song and Stefano Ermon, 2017.
   * Propose **InfoGAIL**, learn interpretable (diverse) policies with mutual information technique (See InfoGAN).
   
-* <[Multi-Modal Imitation Learning from Unstructured Demonstrations using Generative Adversarial Nets](hhttps://arxiv.org/abs/1705.10479)>, by Karol Hausman, Yevgen Chebotar, Stefan Schaal, Gaurav Sukhatme, Joseph Lim., NIPS 2017.
+* <[Multi-Modal Imitation Learning from Unstructured Demonstrations using Generative Adversarial Nets](https://arxiv.org/abs/1705.10479)>, by Karol Hausman, Yevgen Chebotar, Stefan Schaal, Gaurav Sukhatme, Joseph Lim., NIPS 2017.
 
 * <[Robust Imitation of Diverse Behaviors
 ](https://arxiv.org/abs/1707.02747)> by Arjun Sharma, Mohit Sharma, Nicholas Rhinehart, Kris M. Kitani, NIPS 2017.
