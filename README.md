@@ -232,6 +232,8 @@ Generative Adversarial Imitation Learning (GAIL) apply generative adversarial tr
 
 * <[Robust Imitation of Diverse Behaviors
 ](https://arxiv.org/abs/1707.02747)> by Arjun Sharma, Mohit Sharma, Nicholas Rhinehart, Kris M. Kitani, NIPS 2017.
+
+* <[Multi-task policy search for robotics](https://ieeexplore.ieee.org/abstract/document/6907421)> by Marc Peter Deisenroth, Peter Englert, Jan Peters, Dieter Fox, ICRA 2014.
   
 ### Hierarchical RL
 
