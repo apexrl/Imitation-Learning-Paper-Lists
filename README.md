@@ -11,7 +11,7 @@ Typically, different settings of imitation learning derive to different specific
 
 3. Interactive expert for correctness and data aggregation -> On-policy Imitation Learning (begin as Dagger, Dataset Aggregation).
 
-4. Can not interact with Environments -> Batch RL (see a particular list in [here](https://github.com/apexrl/Batch-RL-Paper-Lists).)
+4. Can not interact with Environments -> A special case of Batch RL (see a particular list in [here](https://github.com/apexrl/Batch-RL-Paper-Lists), data in Batch RL can contain more than expert demos.)
 
 What we want from imitation learning in different settings (for real world):
 
