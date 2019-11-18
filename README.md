@@ -358,6 +358,8 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
 
 ## On-policy Imitation Learning
 
+* <[On-Policy Imitation Learning from an Improving Supervisor](https://realworld-sdm.github.io/paper/7.pdf)> by Ashwin Balakrishna and Brijen Thananjeyan, ICML Workshop 2019.
+
 * <[On-Policy Robot Imitation Learning from a Converging Supervisor](https://arxiv.org/abs/1907.03423)>, Ashwin Balakrishna, Brijen Thananjeyan, Jonathan Lee, Felix Li, Arsh Zahed, Joseph E. Gonzalez and Ken Goldberg, CoRL 2019.
   * This paper consider "converging supervisor" in imitation learning as a dynamic DAgger methods.
 
