@@ -306,17 +306,17 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
 
 * <[Multi-Agent Adversarial Inverse Reinforcement Learning](https://arxiv.org/abs/1907.13220)> by Lantao Yu, Jiaming Song, Stefano Ermon. ICML 2019.
 
-* <[Comparison of Multi-agent and Single-agent Inverse Learning on a Simulated Soccer Example](https://arxiv.org/pdf/1403.6822.pdf)> by Lin X, Beling P A, Cogill R. arXiv 2014.
+* <[Comparison of Multi-agent and Single-agent Inverse Learning on a Simulated Soccer Example](https://arxiv.org/pdf/1403.6822.pdf)> by Lin X, Beling P A, Cogill R, arXiv 2014.
 
-* <[Multi-agent inverse reinforcement learning for zero-sum games](https://arxiv.org/pdf/1403.6508.pdf)> by Lin X, Beling P A, Cogill R. arXiv, 2014.
+* <[Multi-agent inverse reinforcement learning for zero-sum games](https://arxiv.org/pdf/1403.6508.pdf)> by Lin X, Beling P A, Cogill R, arXiv 2014.
 
-* <[Multi-robot inverse reinforcement learning under occlusion with interactions](http://aamas2014.lip6.fr/proceedings/aamas/p173.pdf)> by Bogert K, Doshi P. AAMAS 2014.
+* <[Multi-robot inverse reinforcement learning under occlusion with interactions](http://aamas2014.lip6.fr/proceedings/aamas/p173.pdf)> by Bogert K, Doshi P, AAMAS 2014.
 
-* <[Multi-agent inverse reinforcement learning](http://homes.soic.indiana.edu/natarasr/Papers/mairl.pdf)> by Natarajan S, Kunapuli G, Judah K, et al. ICMLA 2010.
+* <[Multi-agent inverse reinforcement learning](http://homes.soic.indiana.edu/natarasr/Papers/mairl.pdf)> by Natarajan S, Kunapuli G, Judah K, et al, ICMLA 2010.
 
 ## MA-GAIL
 
-* <[Multi-Agent Generative Adversarial Imitation Learning](https://papers.nips.cc/paper/7975-multi-agent-generative-adversarial-imitation-learning)> by Jiaming Song, Hongyu Ren, Dorsa Sadigh, Stefano Ermon. NeurIPS 2018.
+* <[Multi-Agent Generative Adversarial Imitation Learning](https://papers.nips.cc/paper/7975-multi-agent-generative-adversarial-imitation-learning)> by Jiaming Song, Hongyu Ren, Dorsa Sadigh, Stefano Ermon, NeurIPS 2018.
 
 # Other Settings
 
@@ -324,27 +324,29 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
 
 ### Review Papers
 
-* [Recent Advances in Imitation Learning from Observation](https://arxiv.org/pdf/1905.13566.pdf), Faraz Torabi, Garrett Warnell, Peter Stone, IJCAI 2019.
+* <[Recent Advances in Imitation Learning from Observation](https://arxiv.org/pdf/1905.13566.pdf)>, by Faraz Torabi, Garrett Warnell, Peter Stone, IJCAI 2019.
 
 ### Regular Papers
 
-* [Provably Efficient Imitation Learning from Observation Alone](http://proceedings.mlr.press/v97/sun19b.html), Wen Sun, Anirudh Vemula, Byron Boots and Drew Bagnell, ICML 2019.
+* <[Imitation Learning from Observations by Minimizing Inverse Dynamics Disagreement](https://arxiv.org/abs/1910.04417)>, by Chao Yang, Xiaojian Ma, Wenbing Huang, Fuchun Sun, Huaping Liu, Junzhou Huang, Chuang Gan, NeurIPS 2019.
 
-* <[To Follow or not to Follow: Selective Imitation Learning from Observations](https://arxiv.org/abs/1707.03374)>, YuXuan Liu, Abhishek Gupta, Pieter Abbeel and Sergey Levine, CoRL 2019.
+* [Provably Efficient Imitation Learning from Observation Alone](http://proceedings.mlr.press/v97/sun19b.html), by Wen Sun, Anirudh Vemula, Byron Boots and Drew Bagnell, ICML 2019.
 
-* <[Adversarial Imitation Learning from State-only Demonstrations](https://dl.acm.org/citation.cfm?id=3332067)>,	Faraz Torabi, Garrett Warnell and Peter Stone, AAMAS 2019.
+* <[To Follow or not to Follow: Selective Imitation Learning from Observations](https://arxiv.org/abs/1707.03374)>, by YuXuan Liu, Abhishek Gupta, Pieter Abbeel and Sergey Levine, CoRL 2019.
 
-* <[Behavioral Cloning from Observation](https://arxiv.org/abs/1805.01954)>, Faraz Torabi, Garrett Warnell and Peter Stone, IJCAI 2018.
+* <[Adversarial Imitation Learning from State-only Demonstrations](https://dl.acm.org/citation.cfm?id=3332067)>, by	Faraz Torabi, Garrett Warnell and Peter Stone, AAMAS 2019.
 
-* <[Imitation from Observation: Learning to Imitate Behaviors from Raw Video via Context Translation](https://arxiv.org/abs/1707.03374)>, YuXuan Liu, Abhishek Gupta, Pieter Abbeel and Sergey Levine, 2017.
+* <[Behavioral Cloning from Observation](https://arxiv.org/abs/1805.01954)>, by Faraz Torabi, Garrett Warnell and Peter Stone, IJCAI 2018.
 
-* <[Observational Learning by Reinforcement Learning](https://arxiv.org/abs/1706.06617)>, Diana Borsa, Bilal Piot, Rémi Munos and Olivier Pietquin, 2017.
+* <[Imitation from Observation: Learning to Imitate Behaviors from Raw Video via Context Translation](https://arxiv.org/abs/1707.03374)>, by YuXuan Liu, Abhishek Gupta, Pieter Abbeel and Sergey Levine, 2017.
+
+* <[Observational Learning by Reinforcement Learning](https://arxiv.org/abs/1706.06617)>, by Diana Borsa, Bilal Piot, Rémi Munos and Olivier Pietquin, 2017.
 
 ## Imitation Learning with rewards
 
 * <[Relay Policy Learning: Solving Long-Horizon Tasks via Imitation and Reinforcement Learning](https://arxiv.org/abs/1910.11956)>, by Abhishek Gupta, Vikash Kumar, Corey Lynch, Sergey Levine and Karol Hausman, CoRL 2019
 
-* <[Integration of Imitation Learning using GAIL and Reinforcement Learning using Task-achievement Rewards via Probabilistic Generative Model](https://arxiv.org/pdf/1907.02140.pdf)>, Akira Kinose and Tadahiro Taniguchi, 2019.
+* <[Integration of Imitation Learning using GAIL and Reinforcement Learning using Task-achievement Rewards via Probabilistic Generative Model](https://arxiv.org/pdf/1907.02140.pdf)>, by Akira Kinose and Tadahiro Taniguchi, 2019.
 
 * <[Reinforced Imitation in Heterogeneous Action Space](https://arxiv.org/pdf/1904.03438)>, by Konrad Zolna, Negar Rostamzadeh, Yoshua Bengio, Sungjin Ahn and Pedro O. Pinheiro, 2019.
 
