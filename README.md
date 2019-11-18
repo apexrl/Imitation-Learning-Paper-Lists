@@ -47,7 +47,7 @@ These papers are classified mainly based on their methodology instead and their 
     * [Task Transfer](https://github.com/apexrl/Imitation-Learning-Paper-Lists#task-transfer)
     * [Model based](https://github.com/apexrl/Imitation-Learning-Paper-Lists#model-based-1)
     * [POMDP](https://github.com/apexrl/Imitation-Learning-Paper-Lists#pomdp)
-  * [Support Estimation Methods](https://github.com/apexrl/Imitation-Learning-Paper-Lists#support-estimation-methods)
+  * [Fixed Reward Methods](https://github.com/apexrl/Imitation-Learning-Paper-Lists#fixed-reward-methods)
   * [Goal-based methods](https://github.com/apexrl/Imitation-Learning-Paper-Lists#goal-based-methods)
   * [Other Methods](https://github.com/apexrl/Imitation-Learning-Paper-Lists#other-methods)
 * [Multi-Agent](https://github.com/apexrl/Imitation-Learning-Paper-Lists#multi-agent)
@@ -260,18 +260,20 @@ Generative Adversarial Imitation Learning (GAIL) apply generative adversarial tr
 
 * <[Learning Belief Representations for Imitation Learning in POMDPs](https://arxiv.org/abs/1906.09510)> by Tanmay Gangwani, Joel Lehman, Qiang Liu, Jian Peng, 2019.
   
-## Support Estimation Methods
+## Fixed Reward Methods
 
 Recently, there is a paper designs a new idea for imitation learning, which learns a fixed reward signal which obviates the need for dynamic update of reward functions.
 
-* <[Support-guided Adversarial Imitation Learning](https://openreview.net/forum?id=r1x3unVKPS)> by Anonymous, 2019.
+* <[Disagreement-Regularized Imitation Learning](https://openreview.net/forum?id=rkgbYyHtwB&noteId=Syx2DuzwFr)> by Anonymous, (Submitted to ICLR) 2019.
+
+* <[Support-guided Adversarial Imitation Learning](https://openreview.net/forum?id=r1x3unVKPS)> by Anonymous, (Submitted to ICLR) 2019.
+
+* [SQIL] <[SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards](https://arxiv.org/abs/1905.11108)> by Siddharth Reddy, Anca D. Dragan, Sergey Levine. (Submitted to ICLR) 2019.
 
 * <[Random Expert Distillation: Imitation Learning via Expert Policy Support Estimation](https://arxiv.org/pdf/1905.06750)> by Ruohan Wang, Carlo Ciliberto, Pierluigi Amadori and Yiannis Demirisn, 2019.
   * Propose **RED**, use RND for IL.
   
 ## Goal-based methods
-
-* [SQIL] <[SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards](https://arxiv.org/abs/1905.11108)> by Siddharth Reddy, Anca D. Dragan, Sergey Levine. 2019.
 
 * [GoalGAIL] <[Goal-conditioned Imitation Learning](https://arxiv.org/abs/1906.05838)> by Yiming Ding, Carlos Florensa, Mariano Phielipp and Pieter Abbeel, ICML 2019.
 
