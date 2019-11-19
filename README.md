@@ -41,12 +41,14 @@ These papers are classified mainly based on their methodology instead and their 
   * [Inverse RL](https://github.com/apexrl/Imitation-Learning-Paper-Lists#inverse-rl)
     * [Reveiws&Tutorials](https://github.com/apexrl/Imitation-Learning-Paper-Lists#reveiwstutorials-1)
     * [Papers](https://github.com/apexrl/Imitation-Learning-Paper-Lists#papers)
+    * [Beyesian Methods](https://github.com/apexrl/Imitation-Learning-Paper-Lists#beyesian-methods)
   * [Generative Adversarial Methods](https://github.com/apexrl/Imitation-Learning-Paper-Lists#generative-adversarial-methods)
     * [Multi-modal Behaviors](https://github.com/apexrl/Imitation-Learning-Paper-Lists#multi-modal-behaviors-1)
     * [Hierarchical RL](https://github.com/apexrl/Imitation-Learning-Paper-Lists#hierarchical-rl-1)  
     * [Task Transfer](https://github.com/apexrl/Imitation-Learning-Paper-Lists#task-transfer)
     * [Model based](https://github.com/apexrl/Imitation-Learning-Paper-Lists#model-based-1)
     * [POMDP](https://github.com/apexrl/Imitation-Learning-Paper-Lists#pomdp)
+    * [Beyesian Methods](https://github.com/apexrl/Imitation-Learning-Paper-Lists#beyesian-methods-1)
   * [Fixed Reward Methods](https://github.com/apexrl/Imitation-Learning-Paper-Lists#fixed-reward-methods)
   * [Goal-based methods](https://github.com/apexrl/Imitation-Learning-Paper-Lists#goal-based-methods)
   * [Other Methods](https://github.com/apexrl/Imitation-Learning-Paper-Lists#other-methods)
@@ -200,6 +202,11 @@ Brian D. Ziebart, Andrew Maas, J.Andrew Bagnell, and Anind K. Dey, 2008.
 
 * <[Algorithms for Inverse Reinforcement Learning](http://ai.stanford.edu/~ang/papers/icml00-irl.pdf)> by AY Ng, SJ Russell, 2000.
 
+### Beyesian Methods
+
+* <[Bayesian Inverse Reinforcement Learning]>(https://www.aaai.org/Papers/IJCAI/2007/IJCAI07-416.pdf)
+ by D Ramachandran, E Amir, IJCAI 2007. 
+
 ## Generative Adversarial Methods
 
 Generative Adversarial Imitation Learning (GAIL) apply generative adversarial training manner into learning expert policies, which is derived from inverse RL.
@@ -278,6 +285,11 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
 * [GoalGAIL] <[Goal-conditioned Imitation Learning](https://arxiv.org/abs/1906.05838)> by Yiming Ding, Carlos Florensa, Mariano Phielipp and Pieter Abbeel, ICML 2019.
 
 * <[Overcoming Exploration in Reinforcement Learning with Demonstrations](https://arxiv.org/abs/1906.05838)> by Ashvin Nair, Bob McGrew, Marcin Andrychowicz, Wojciech Zaremba, Pieter Abbeel, ICRA 2018.
+
+### Beyesian Methods
+
+* <[A Bayesian Approach to Generative Adversarial Imitation Learning]>(http://ailab.kaist.ac.kr/papers/jeon2018bayesian)
+ by Wonseok Jeon, Seokin Seo, and Kee-Eung Kim, NIPS 2018. 
   
 ## Other Methods
 
