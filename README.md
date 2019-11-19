@@ -31,7 +31,7 @@ These papers are classified mainly based on their methodology instead and their 
 
 # Overview
 * [Single-Agent](https://github.com/apexrl/Imitation-Learning-Paper-Lists#single-agent)
-  * [Reveiws&Tutorials](https://github.com/apexrl/Imitation-Learning-Paper-Lists#reveiws\&tutorials)
+  * [Reveiws&Tutorials](https://github.com/apexrl/Imitation-Learning-Paper-Lists#reveiwstutorials)
   * [Behavior Cloning](https://github.com/apexrl/Imitation-Learning-Paper-Lists#behavior-cloning)
     * [One-shot / Zero-shot](https://github.com/apexrl/Imitation-Learning-Paper-Lists#one-shot--zero-shot)
     * [Model based](https://github.com/apexrl/Imitation-Learning-Paper-Lists#model-based)
