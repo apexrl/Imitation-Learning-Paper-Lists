@@ -100,8 +100,6 @@ Behavior Cloning (BC) directly replicating the expert’s behavior with supervis
 
 * <[Hierarchical Imitation and Reinforcement Learning](https://arxiv.org/abs/1803.00590)> by Hoang M. Le, Nan Jiang, Alekh Agarwal, Miroslav Dudík, Yisong Yue and Hal Daumé III, 2018.
 
-* [Leveraging Demonstrations for Deep Reinforcement Learning on Robotics Problems with Sparse Reward](https://pdfs.semanticscholar.org/8186/04245973bb30ad021728149a89157b3b2780.pdf), Mel Vecerik, Todd Hester, Jonathan Scholz, Fumin Wang, Olivier Pietquin, Bilal Piot, Nicolas Heess, Thomas Rothörl, Thomas Lampe and Martin Riedmiller, 2017.
-
 * <[Associate Latent Encodings in Learning from Demonstrations](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14509)> by Hang Yin, Francisco S. Melo, Aude Billard, Ana Paiva, 2017.
 
 ### One-shot / Zero-shot
@@ -164,8 +162,6 @@ Inverse Rinforcement Learning (IRL) learns hidden objectives of the expert’s b
 
 * <[Learning to Optimize via Wasserstein Deep Inverse Optimal Control
 ](https://arxiv.org/abs/1805.08395)> by Yichen Wang, Le Song, and Hongyuan Zha, 2018.
-
-* <[Learning Robust Rewards with Adversarial Inverse Reinforcement Learning](https://arxiv.org/abs/1710.11248)> by Justin Fu, Katie Luo, Sergey Levine, 2018.
 
 * <[A Connection Between Generative Adversarial Networks, Inverse Reinforcement Learning, and Energy-Based Models
 ](https://arxiv.org/abs/1611.03852)> by Chelsea Finn, Paul Christiano, Pieter Abbeel, Sergey Levine, 2016.
@@ -297,12 +293,18 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
 
 * <[Deep Q-learning from Demonstrations](https://arxiv.org/abs/1704.03732)>, by Todd Hester, Matej Vecerik, Olivier Pietquin, Marc Lanctot, Tom Schaul, Bilal Piot, Dan Horgan, John Quan, Andrew Sendonaris, Gabriel Dulac-Arnold, Ian Osband, John Agapiou, Joel Z. Leibo, Audrunas Gruslys, AAAI 2018.
 
+* <[Observe and look further: Achieving consistent performance on atari](https://arxiv.org/abs/1805.11593)> by Tobias Pohlen, Bilal Piot, Todd Hester, Mohammad Gheshlaghi Azar, Dan Horgan, David Budden, Gabriel Barth-Maron, Hado van Hasselt, John Quan, Mel Veˇcerík, et al, Arxiv 2018.
+
+* <[Learning Robust Rewards with Adversarial Inverse Reinforcement Learning](https://arxiv.org/abs/1710.11248)> by Justin Fu, Katie Luo, Sergey Levine, 2018.
+
 * [UPN] <[Universal Planning Networks](https://arxiv.org/abs/1804.00645)>, by Aravind Srinivas, Allan Jabri, Pieter Abbeel, Sergey Levine, Chelsea Finn, 2018.
 
 * <[Learning to Search via Retrospective Imitation](https://arxiv.org/abs/1804.00846)>, Jialin Song, Ravi Lanka, Albert Zhao, Aadyot Bhatnagar, Yisong Yue, Masahiro Ono, 2018.
     * This paper is for combinatorial problems.
 
 * <[Third-Person Imitation Learning](https://arxiv.org/abs/1703.01703)>, by Bradly C. Stadie, Pieter Abbeel and Ilya Sutskever, ICLR 2017
+
+* [Leveraging Demonstrations for Deep Reinforcement Learning on Robotics Problems with Sparse Reward](https://pdfs.semanticscholar.org/8186/04245973bb30ad021728149a89157b3b2780.pdf), Mel Vecerik, Todd Hester, Jonathan Scholz, Fumin Wang, Olivier Pietquin, Bilal Piot, Nicolas Heess, Thomas Rothörl, Thomas Lampe and Martin Riedmiller, 2017.
 
 # Multi-Agent
 
