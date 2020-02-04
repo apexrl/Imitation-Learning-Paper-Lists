@@ -306,6 +306,8 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
 
 * [Leveraging Demonstrations for Deep Reinforcement Learning on Robotics Problems with Sparse Reward](https://pdfs.semanticscholar.org/8186/04245973bb30ad021728149a89157b3b2780.pdf), Mel Vecerik, Todd Hester, Jonathan Scholz, Fumin Wang, Olivier Pietquin, Bilal Piot, Nicolas Heess, Thomas Rothörl, Thomas Lampe and Martin Riedmiller, 2017.
 
+* [Imitation Learning Using Graphical Models](https://link.springer.com/chapter/10.1007/978-3-540-74958-5_77), Deepak VermaRajesh, P.N.Rao, ECML2007.
+
 # Multi-Agent
 
 * <[PRECOG: PREdiction Conditioned On Goals in Visual Multi-Agent Settings](https://arxiv.org/abs/1905.01296)> by Nicholas Rhinehart, Rowan McAllister, Kris Kitani and Sergey Levine, ICCV 2019. [[blog]](https://sites.google.com/view/precog)
