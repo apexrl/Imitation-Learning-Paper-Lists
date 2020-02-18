@@ -27,7 +27,7 @@ What we want from imitation learning in different settings (for real world):
 
 In this collection, we will concentrate on the general setting and we collect other settings in "[Other Settings](https://github.com/apexrl/Imitation-Learning-Paper-Lists/blob/master/README.md#other-settings)" section. For other settings, such as "Self-imitation learning" which imitate the policy from one's own historical data, we do not regard it as an imitation learning task.
 
-These papers are classified mainly based on their methodology instead and their specific task settings (except single-agent/multi-agent settings) but since there are many cross-domain papers, the classification is just for reference. As you can see, much works focus on Robotics, especially papers of UCB.
+These papers are classified mainly based on their methodology instead and their specific task settings (except single-agent/multi-agent settings) but since there are many cross-domain papers, the classification is just for reference. As you can see, many works focus on Robotics, especially papers of UCB.
 
 # Overview
 * [Single-Agent](https://github.com/apexrl/Imitation-Learning-Paper-Lists#single-agent)
@@ -66,7 +66,7 @@ These papers are classified mainly based on their methodology instead and their 
 
 ## Reveiws&Tutorials
 
-* <[Imitation Learning Tutorial](https://sites.google.com/view/icml2018-imitation-learning/)> by Yisong Yue Hoang M. Le, ICML, 2018. (Vedio; Slide)
+* <[Imitation Learning Tutorial](https://sites.google.com/view/icml2018-imitation-learning/)> by Yisong Yue Hoang M. Le, ICML, 2018. (Video; Slide)
 
 * <[Global overview of Imitation Learning](https://arxiv.org/abs/1801.06503)> by Alexandre Attia, Sharone Dayan, 2018.
 
@@ -74,9 +74,9 @@ These papers are classified mainly based on their methodology instead and their 
 
 * <[Imitation learning: A survey of learning methods](https://dl.acm.org/citation.cfm?id=3071073.3054912)> by	Ahmed Hussein, Mohamed Medhat Gaber, Eyad Elyan,	Chrisina Jayne, 2017.
 
-* <[Imitation learning basic Lecture (National Taiwan University)](https://www.youtube.com/watch?v=rOho-2oJFeA)> by Hongyi Li, 2017. (Vedio)
+* <[Imitation learning basic Lecture (National Taiwan University)](https://www.youtube.com/watch?v=rOho-2oJFeA)> by Hongyi Li, 2017. (Video)
 
-* <[New Frontiers in Imitation Learning](https://www.youtube.com/watch?v=4PnNlvPGbUQi)> by Yisong Yue, 2017. (Vedio)
+* <[New Frontiers in Imitation Learning](https://www.youtube.com/watch?v=4PnNlvPGbUQi)> by Yisong Yue, 2017. (Video)
 
 * <[A survey of robot learning from demonstration](https://www.sciencedirect.com/science/article/pii/S0921889008001772)> by 
 Brenna, D.Argall, SoniaChernova, ManuelaVeloso, BrettBrowning, 2009.
