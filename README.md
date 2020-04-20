@@ -85,8 +85,6 @@ Brenna, D.Argall, SoniaChernova, ManuelaVeloso, BrettBrowning, 2009.
 
 Behavior Cloning (BC) directly replicating the expert’s behavior with supervised learning, which can be improved via data aggregation. One can say that BC is the simplest case of interactive direct policy learning.
 
-* [SQIL: Imitation Learning via Regularized Behavioral Cloning](https://arxiv.org/pdf/1905.11108), by Siddharth Reddy, Anca D. Dragan and Sergey Levine, 2019.
-
 * <[Graph-Structured Visual Imitation](https://arxiv.org/abs/1907.05518)>, by Maximilian Sieb, Zhou Xian, Audrey Huang, Oliver Kroemer and Katerina Fragkiadaki, CoRL 2019.
   * This paper cast visual imitation as a visual correspondence problem in robotics. 
   
