@@ -163,6 +163,8 @@ Inverse Rinforcement Learning (IRL) learns hidden objectives of the expert’s b
 * <[Learning to Optimize via Wasserstein Deep Inverse Optimal Control
 ](https://arxiv.org/abs/1805.08395)> by Yichen Wang, Le Song, and Hongyuan Zha, 2018.
 
+* [AIRL] <([Learning Robust Rewards with Adversarial Inverse Reinforcement Learning](https://arxiv.org/pdf/1710.11248)>, by Justin Fu, Katie Luo, Sergey Levine, ICLR 2018.
+
 * <[A Connection Between Generative Adversarial Networks, Inverse Reinforcement Learning, and Energy-Based Models
 ](https://arxiv.org/abs/1611.03852)> by Chelsea Finn, Paul Christiano, Pieter Abbeel, Sergey Levine, 2016.
 
