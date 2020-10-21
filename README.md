@@ -25,7 +25,7 @@ What we want from imitation learning in different settings (for real world):
 
 4. Learn good policies in real world where interact with the environment is difficult.
 
-In this collection, we will concentrate on the general setting and we collect other settings in "[Other Settings](https://github.com/apexrl/Imitation-Learning-Paper-Lists/blob/master/README.md#other-settings)" section. For other settings, such as "Self-imitation learning" which imitate the policy from one's own historical data, we do not regard it as an imitation learning task.
+In this collection, we will concentrate on the general setting and we collect other settings in "[Other Settings](https://github.com/apexrl/Imitation-Learning-Paper-Lists/blob/master/README.md#other-settings)" section. For other settings, such as "Self-imitation learning" which imitates the policy from one's own historical data, we do not regard it as an imitation learning task.
 
 These papers are classified mainly based on their methodology instead and their specific task settings (except single-agent/multi-agent settings) but since there are many cross-domain papers, the classification is just for reference. As you can see, many works focus on Robotics, especially papers of UCB.
 
@@ -200,7 +200,7 @@ Brian D. Ziebart, Andrew Maas, J.Andrew Bagnell, and Anind K. Dey, 2008.
 
 ### Beyesian Methods
 
-* <[Bayesian Inverse Reinforcement Learning]>(https://www.aaai.org/Papers/IJCAI/2007/IJCAI07-416.pdf)
+* <[Bayesian Inverse Reinforcement Learning](https://www.aaai.org/Papers/IJCAI/2007/IJCAI07-416.pdf)>
  by D Ramachandran, E Amir, IJCAI 2007. 
 
 ## Generative Adversarial Methods
@@ -318,11 +318,11 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
 
 * <[Imitation Learning of Factored Multi-agent Reactive Models](https://arxiv.org/abs/1903.04714) by Michael Teng, Tuan Anh Le, Adam Scibior, Frank Wood, 2019.
 
-* <[Coordinated multi-agent imitation learning](https://dl.acm.org/citation.cfm?id=3305587)> by Dylan Hadfield-Menell, Stuart J. Russell, Pieter Abbeel and Anca Dragan, NIPS 2016.
+* <[Coordinated multi-agent imitation learning](http://papers.nips.cc/paper/6420-cooperative-inverse-reinforcement-learning)> by 	Hoang M. Le, Yisong Yue, Peter Carr, Patrick Lucey,	ICML 2017.
 
 ## MA Inverse RL
 
-* <[Cooperative Inverse Reinforcement Learning](http://papers.nips.cc/paper/6420-cooperative-inverse-reinforcement-learning)> by 	Hoang M. Le, Yisong Yue, Peter Carr, Patrick Lucey,	ICML 2017.
+* <[Cooperative Inverse Reinforcement Learning](https://arxiv.org/abs/1703.03121)> by Dylan Hadfield-Menell, Stuart J. Russell, Pieter Abbeel and Anca Dragan, NIPS 2016.
 
 * <[Multi-Agent Adversarial Inverse Reinforcement Learning](https://arxiv.org/abs/1907.13220)> by Lantao Yu, Jiaming Song, Stefano Ermon. ICML 2019.
 
