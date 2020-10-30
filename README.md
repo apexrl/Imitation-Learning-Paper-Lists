@@ -348,6 +348,8 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
 
 ### Regular Papers
 
+* <[State Alignment-based Imitation Learning](https://arxiv.org/abs/1911.10947)>, by Fangchen Liu, Zhan Ling, Tongzhou Mu, Hao Su, ICLR 2020.
+
 * <[Imitation Learning from Observations by Minimizing Inverse Dynamics Disagreement](https://arxiv.org/abs/1910.04417)>, by Chao Yang, Xiaojian Ma, Wenbing Huang, Fuchun Sun, Huaping Liu, Junzhou Huang, Chuang Gan, NeurIPS 2019.
 
 * [Provably Efficient Imitation Learning from Observation Alone](http://proceedings.mlr.press/v97/sun19b.html), by Wen Sun, Anirudh Vemula, Byron Boots and Drew Bagnell, ICML 2019.
