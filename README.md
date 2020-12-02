@@ -120,7 +120,9 @@ Behavior Cloning (BC) directly replicating the expert’s behavior with supervis
 
 ### Hierarchical RL
 
-* <[Hierarchical Imitation and Reinforcement Learning](https://arxiv.org/abs/1803.00590)>, by Hoang M. Le, Nan Jiang, Alekh Agarwal, Miroslav Dudík, Yisong Yue and Hal Daumé III, ICML 2018
+* <[CompILE: Compositional Imitation Learning and Execution]>(https://arxiv.org/pdf/1812.01483.pdf), by Thomas Kipf, Yujia Li, Hanjun Dai, Vinicius Zambaldi, Alvaro Sanchez-Gonzalez, Edward Grefenstette, Pushmeet Kohli and Peter Battaglia, ICML 2019.
+
+* <[Hierarchical Imitation and Reinforcement Learning](https://arxiv.org/abs/1803.00590)>, by Hoang M. Le, Nan Jiang, Alekh Agarwal, Miroslav Dudík, Yisong Yue and Hal Daumé III, ICML 2018.
 
 ### Multi-modal Behaviors
 
