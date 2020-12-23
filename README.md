@@ -297,8 +297,6 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
 
 * <[Observe and look further: Achieving consistent performance on atari](https://arxiv.org/abs/1805.11593)> by Tobias Pohlen, Bilal Piot, Todd Hester, Mohammad Gheshlaghi Azar, Dan Horgan, David Budden, Gabriel Barth-Maron, Hado van Hasselt, John Quan, Mel Veˇcerík, et al, Arxiv 2018.
 
-* <[Learning Robust Rewards with Adversarial Inverse Reinforcement Learning](https://arxiv.org/abs/1710.11248)> by Justin Fu, Katie Luo, Sergey Levine, 2018.
-
 * [UPN] <[Universal Planning Networks](https://arxiv.org/abs/1804.00645)>, by Aravind Srinivas, Allan Jabri, Pieter Abbeel, Sergey Levine, Chelsea Finn, 2018.
 
 * <[Learning to Search via Retrospective Imitation](https://arxiv.org/abs/1804.00846)>, Jialin Song, Ravi Lanka, Albert Zhao, Aadyot Bhatnagar, Yisong Yue, Masahiro Ono, 2018.
