@@ -120,7 +120,9 @@ Behavior Cloning (BC) directly replicating the expert’s behavior with supervis
 
 ### Hierarchical RL
 
-* <[Hierarchical Imitation and Reinforcement Learning](https://arxiv.org/abs/1803.00590)>, by Hoang M. Le, Nan Jiang, Alekh Agarwal, Miroslav Dudík, Yisong Yue and Hal Daumé III, ICML 2018
+* <[CompILE: Compositional Imitation Learning and Execution](https://arxiv.org/pdf/1812.01483.pdf)>, by Thomas Kipf, Yujia Li, Hanjun Dai, Vinicius Zambaldi, Alvaro Sanchez-Gonzalez, Edward Grefenstette, Pushmeet Kohli and Peter Battaglia, ICML 2019.
+
+* <[Hierarchical Imitation and Reinforcement Learning](https://arxiv.org/abs/1803.00590)>, by Hoang M. Le, Nan Jiang, Alekh Agarwal, Miroslav Dudík, Yisong Yue and Hal Daumé III, ICML 2018.
 
 ### Multi-modal Behaviors
 
@@ -352,7 +354,7 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
 
 * <[Imitation Learning from Observations by Minimizing Inverse Dynamics Disagreement](https://arxiv.org/abs/1910.04417)>, by Chao Yang, Xiaojian Ma, Wenbing Huang, Fuchun Sun, Huaping Liu, Junzhou Huang, Chuang Gan, NeurIPS 2019.
 
-* [Provably Efficient Imitation Learning from Observation Alone](http://proceedings.mlr.press/v97/sun19b.html), by Wen Sun, Anirudh Vemula, Byron Boots and Drew Bagnell, ICML 2019.
+* <[Provably Efficient Imitation Learning from Observation Alone](http://proceedings.mlr.press/v97/sun19b.html)>, by Wen Sun, Anirudh Vemula, Byron Boots and Drew Bagnell, ICML 2019.
 
 * <[To Follow or not to Follow: Selective Imitation Learning from Observations](https://arxiv.org/abs/1707.03374)>, by YuXuan Liu, Abhishek Gupta, Pieter Abbeel and Sergey Levine, CoRL 2019.
 
