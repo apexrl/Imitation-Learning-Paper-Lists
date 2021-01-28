@@ -354,7 +354,7 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
 
 * <[Provably Efficient Imitation Learning from Observation Alone](http://proceedings.mlr.press/v97/sun19b.html)>, by Wen Sun, Anirudh Vemula, Byron Boots and Drew Bagnell, ICML 2019.
 
-* <[To Follow or not to Follow: Selective Imitation Learning from Observations](https://arxiv.org/abs/1707.03374)>, by YuXuan Liu, Abhishek Gupta, Pieter Abbeel and Sergey Levine, CoRL 2019.
+* <[To Follow or not to Follow: Selective Imitation Learning from Observations](https://arxiv.org/abs/1912.07670)>, by YuXuan Liu, Abhishek Gupta, Pieter Abbeel and Sergey Levine, CoRL 2019.
 
 * <[Adversarial Imitation Learning from State-only Demonstrations](https://dl.acm.org/citation.cfm?id=3332067)>, by	Faraz Torabi, Garrett Warnell and Peter Stone, AAMAS 2019.
 
