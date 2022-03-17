@@ -1,5 +1,5 @@
 # Imitation-Learning-Paper-Lists
-Paper Collection for Imitation Learning in RL with brief introductions. This collection refers to [Awesome-Imitation-Learning](https://github.com/kristery/Awesome-Imitation-Learning) and also contains self-collected papers.
+Paper Collection for Imitation Learning in RL with brief introductions. This collection refers to [Awesome-Imitation-Learning](https://github.com/kristery/Awesome-Imitation-Learning) and also contains our collected papers.
 
 To be precise, the "imitation learning" is the general problem of learning from expert demonstration (LfD). There are 2 names derived from such a description, which are Imitation Learning and Apprenticeship Learning due to historical reasons. Usually, apprenticeship learning is mentioned in the context of "Apprenticeship learning via inverse reinforcement learning (IRL)" which recovers the reward function and learns policies from it, while imitation learning began with behavior cloning that learn the policy directly ([ref](https://cs.stackexchange.com/questions/56577/apprenticeship-vs-imitation-learning-what-is-the-difference) and <An autonomous land vehicle in a neural network> by Morgan-Kaufmann, NIPS 1989.). However, with the development of related researches, "imitation learning" is always used to represent the general LfD problem setting, which is also our view of point.
 
@@ -225,6 +225,8 @@ Generative Adversarial Imitation Learning (GAIL) apply generative adversarial tr
 
 * [GAIL] <[Generative Adversarial Imitation Learning](http://papers.nips.cc/paper/6391-generative-adversarial-imitation-learning)> by Jonathan Ho and Stefano Ermon, 2016.
   * Propose **GAIL**, minimize the JS divergence of policy and expert policy with GAN's technique.
+ 
+* [FAIL] <[A Divergence Minimization Perspective on Imitation Learning Methods](http://arxiv.org/abs/1911.02256)> by Seyed Kamyar Seyed Ghasemipour, Richard Zemel and Shixiang Gu, CoRL 2019.
   
 ### Multi-modal Behaviors
 
@@ -290,8 +292,8 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
  by Wonseok Jeon, Seokin Seo, and Kee-Eung Kim, NIPS 2018. 
   
 ## Other Methods
-
-* <[A Divergence Minimization Perspective on Imitation Learning Methods](http://arxiv.org/abs/1911.02256)> by Seyed Kamyar Seyed Ghasemipour, Richard Zemel and Shixiang Gu, 2019.
+ 
+* [IQL, Current SoTA] <[IQ-Learn: Inverse soft-Q Learning for Imitation](https://arxiv.org/abs/2106.12142)> by Divyansh Garg, Shuvam Chakraborty, Chris Cundy, Jiaming Song, Stefano Ermon, NeurIPS 2021.
 
 * <[Deep Q-learning from Demonstrations](https://arxiv.org/abs/1704.03732)>, by Todd Hester, Matej Vecerik, Olivier Pietquin, Marc Lanctot, Tom Schaul, Bilal Piot, Dan Horgan, John Quan, Andrew Sendonaris, Gabriel Dulac-Arnold, Ian Osband, John Agapiou, Joel Z. Leibo, Audrunas Gruslys, AAAI 2018.
 
@@ -305,7 +307,6 @@ Recently, there is a paper designs a new idea for imitation learning, which lear
 * <[Third-Person Imitation Learning](https://arxiv.org/abs/1703.01703)>, by Bradly C. Stadie, Pieter Abbeel and Ilya Sutskever, ICLR 2017
 
 * [Leveraging Demonstrations for Deep Reinforcement Learning on Robotics Problems with Sparse Reward](https://pdfs.semanticscholar.org/8186/04245973bb30ad021728149a89157b3b2780.pdf), Mel Vecerik, Todd Hester, Jonathan Scholz, Fumin Wang, Olivier Pietquin, Bilal Piot, Nicolas Heess, Thomas Rothörl, Thomas Lampe and Martin Riedmiller, 2017.
-
 
 * [Model-based Imitation Learning by Probabilistic Trajectory Matching](https://ieeexplore.ieee.org/abstract/document/6630832), Peter Englert ; Alexandros Paraschos ; Jan Peters ; Marc Peter Deisenroth, ICRA 2013. 
 
